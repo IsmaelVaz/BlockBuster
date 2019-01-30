@@ -1,0 +1,179 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{930A3E3E-F2E9-4B4B-8879-9A85F429DA9A}</ProjectGuid>
+			<MainSource>blockbuster_client.dpr</MainSource>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+			<ProjectVersion>12.0</ProjectVersion>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_Define>INDY10;$(DCC_Define)</DCC_Define>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;$(DCC_UnitAlias)</DCC_UnitAlias>
+			<DCC_DependencyCheckOutputName>blockbuster_client.exe</DCC_DependencyCheckOutputName>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_Platform>x86</DCC_Platform>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="blockbuster_client.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="..\uModelClient.pas"/>
+			<DCCReference Include="..\uSingletonsClient.pas"/>
+			<DCCReference Include="..\..\Common\uMisc.pas"/>
+			<DCCReference Include="ufrmClientMain_blockbuster_client.pas"/>
+			<DCCReference Include="..\ufrmLogin.pas"/>
+			<DCCReference Include="..\ufrmGeneralSearch.pas"/>
+			<DCCReference Include="..\ufrmGeneralSearchMergeCriteriaSelection.pas"/>
+			<DCCReference Include="..\ufrmGeneralSelectionDialog.pas"/>
+			<DCCReference Include="..\ufrmColumnSelection.pas"/>
+			<DCCReference Include="..\uCRUDFormUtils.pas"/>
+			<DCCReference Include="..\uComboBoxRoutines.pas"/>
+			<DCCReference Include="..\uClientGeneralReports.pas"/>
+			<DCCReference Include="..\uDocumentsCommons.pas">
+				<Form>Documents Commons unit</Form>
+			</DCCReference>
+			<DCCReference Include="..\CRUDForms\ufrmCRUDFilme.pas">
+				<Form>Cadastro de Filmes</Form>
+			</DCCReference>
+			<DCCReference Include="..\DataForms\ufrmDataFilme.pas">
+				<Form>Dados do Filme</Form>
+			</DCCReference>
+			<DCCReference Include="..\CRUDForms\ufrmCRUDSocio.pas">
+				<Form>Cadastro de Sócios</Form>
+			</DCCReference>
+			<DCCReference Include="..\DataForms\ufrmDataSocio.pas">
+				<Form>Dados do Sócio</Form>
+			</DCCReference>
+			<DCCReference Include="..\CRUDForms\ufrmCRUDDiretor.pas">
+				<Form>Cadastro de Diretores</Form>
+			</DCCReference>
+			<DCCReference Include="..\DataForms\ufrmDataDiretor.pas">
+				<Form>Dados do Diretor</Form>
+			</DCCReference>
+			<DCCReference Include="..\CRUDForms\ufrmCRUDLog.pas">
+				<Form>Cadastro de Logs</Form>
+			</DCCReference>
+			<DCCReference Include="..\DataForms\ufrmDataLog.pas">
+				<Form>Dados do Log</Form>
+			</DCCReference>
+			<DCCReference Include="..\CRUDForms\ufrmCRUDLocacao.pas">
+				<Form>Cadastro de Locação</Form>
+			</DCCReference>
+			<DCCReference Include="..\DataForms\ufrmDataLocacao.pas">
+				<Form>Dados da Locação</Form>
+			</DCCReference>
+			<DCCReference Include="..\CRUDForms\ufrmCRUDNotaDebito.pas">
+				<Form>Cadastro de Notas de Débito</Form>
+			</DCCReference>
+			<DCCReference Include="..\DataForms\ufrmDataNotaDebito.pas">
+				<Form>Dados Nota de Débito</Form>
+			</DCCReference>
+			<DCCReference Include="..\CRUDForms\ufrmCRUDOrdemCompra.pas">
+				<Form>Cadastro de Ordens de Compra</Form>
+			</DCCReference>
+			<DCCReference Include="..\DataForms\ufrmDataOrdemCompra.pas">
+				<Form>Dados da Ordem de Compra</Form>
+			</DCCReference>
+			<DCCReference Include="..\DataForms\ufrmDataEndereco.pas">
+				<Form>Endereço</Form>
+			</DCCReference>
+			<DCCReference Include="..\DataForms\ufrmDataLocacaoItem.pas">
+				<Form>Locação Item</Form>
+			</DCCReference>
+			<DCCReference Include="..\DataForms\ufrmDataOrdemCompraItem.pas">
+				<Form>Itens da Ordem de Compra</Form>
+			</DCCReference>
+			<DCCReference Include="..\DocumentUnits\uFichaLocacao.pas">
+				<Form>FichaLocacao</Form>
+			</DCCReference>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>VCLApplication</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">blockbuster_client.dpr</Source>
+					</Source>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">1</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1046</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Excluded_Packages>
+						<Excluded_Packages Name="C:\Components_D2010\ACBr\Lib\Delphi\LibD14\ACBr_NFeDanfeRL.bpl">ACBr - DANFe em FortesReport - (http://www.projetoacbr.com.br/)</Excluded_Packages>
+						<Excluded_Packages Name="C:\Components_D2010\ACBr\Lib\Delphi\LibD14\ACBr_CTeDacteRL.bpl">ACBr - DACTe em FortesReport - (http://www.projetoacbr.com.br/)</Excluded_Packages>
+						<Excluded_Packages Name="C:\Components_D2010\ACBr\Lib\Delphi\LibD14\ACBr_NFSeDanfseRL.bpl">ACBr - DANFSe em FortesReport - (http://www.projetoacbr.com.br/)</Excluded_Packages>
+						<Excluded_Packages Name="C:\Components_D2010\ACBr\Lib\Delphi\LibD14\ACBr_BoletoRL.bpl">ACBr - Boleto Impressão em FortesReport - (http://www.projectoacbr.com.br/)</Excluded_Packages>
+						<Excluded_Packages Name="C:\Components_D2010\ACBr\Lib\Delphi\LibD14\ACBr_MDFeDamdfeRL.bpl">ACBr - DAMDFe em FortesReport - (http://www.projetoacbr.com.br/)</Excluded_Packages>
+						<Excluded_Packages Name="C:\Components_D2010\ACBr\Lib\Delphi\LibD14\ACBr_SATExtratoRL.bpl">ACBr - Extrato Cupom Fiscal Eletrônico SAT para Fortes Report - (http://www.projectoacbr.com.br/)</Excluded_Packages>
+						<Excluded_Packages Name="C:\Components_D2010\ACBr\Lib\Delphi\LibD14\ACBr_GNREGuiaRL.bpl">ACBr - GNRE Impressão em FortesReport - (http://www.projectoacbr.com.br/)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dcloffice2k140.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dclofficexp140.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+					</Excluded_Packages>
+				</Delphi.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

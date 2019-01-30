@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="..\..\BlockBuster"/>
+    <File Path="..\Common"/>
+    <File Path="..\Common\uMisc.pas"/>
+    <File Path="..\Common\uPermissions.pas"/>
+    <File Path="ufrmAppServerUI.pas"/>
+    <File Path="uModel.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>
