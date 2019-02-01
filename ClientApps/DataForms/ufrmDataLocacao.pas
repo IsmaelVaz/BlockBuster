@@ -708,8 +708,8 @@ begin
       txtDataInicial.Enabled:= True;
       txtDataFinal.Enabled:= True;
 
-      tlbToolBar1.Enabled:= False;
-      grdDataItens.Enabled:= False;
+      tlbToolBar1.Enabled:= True;
+      grdDataItens.Enabled:= True;
    end;
 //$$** ENDSECTION
 end;

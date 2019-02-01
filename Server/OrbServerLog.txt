@@ -7452,3 +7452,1053 @@ Connection reset by peer.
 (2019-01-30 13:24:18) ============
 (2019-01-30 13:24:18) 
 (2019-01-30 13:24:18) 
+(2019-01-30 13:24:43) 
+(2019-01-30 13:24:43) 
+(2019-01-30 13:24:43) ==============
+(2019-01-30 13:24:43) Server started
+(2019-01-30 13:24:53) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 1KIGIWGBXSM
+(2019-01-30 13:24:53) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 1KIGIWGBXSM
+(2019-01-30 13:24:53) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-01-30 13:25:02) admin 1KIGIWGBXSM is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:25:02) admin 1KIGIWGBXSM has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:25:02) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:25:02) admin retrieved objects P,184 
+(2019-01-30 13:25:05) admin 1KIGIWGBXSM is invoking method TLocacao.GetArrayNotaDebito on object P,540 
+(2019-01-30 13:25:05) admin 1KIGIWGBXSM has just invoked method TLocacao.GetArrayNotaDebito on object P,540 
+(2019-01-30 13:25:05) admin retrieved objects P,560 
+(2019-01-30 13:25:09) admin 1KIGIWGBXSM is invoking method TLocacao.GetArrayNotaDebito on object P,544 
+(2019-01-30 13:25:09) admin 1KIGIWGBXSM has just invoked method TLocacao.GetArrayNotaDebito on object P,544 
+(2019-01-30 13:25:25) admin 1KIGIWGBXSM is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:25:25) admin 1KIGIWGBXSM has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:25:25) admin queried persistent objects (TSocio): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:25:27) admin 1KIGIWGBXSM is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:25:27) admin 1KIGIWGBXSM has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:25:27) admin queried persistent objects (TDiretor): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:25:31) admin retrieved object P,184 (TSocio)
+(2019-01-30 13:25:33) admin queried persistent objects (TSocio): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:25:39) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 1KIGIWGBXSM
+(2019-01-30 13:25:39) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 1KIGIWGBXSM
+(2019-01-30 13:42:32) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 2RCSTKBJQJF
+(2019-01-30 13:42:32) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 2RCSTKBJQJF
+(2019-01-30 13:42:32) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-01-30 13:42:34) admin 2RCSTKBJQJF is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:42:34) admin 2RCSTKBJQJF has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:42:34) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:42:34) admin retrieved objects P,184 
+(2019-01-30 13:42:37) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:42:38) admin 2RCSTKBJQJF is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:42:38) admin 2RCSTKBJQJF has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:42:38) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:42:48) admin 2RCSTKBJQJF is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:42:48) admin 2RCSTKBJQJF has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:42:48) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:42:52) admin retrieved object P,544 (TLocacao)
+(2019-01-30 13:42:52) admin retrieved object P,184 (TSocio)
+(2019-01-30 13:42:55) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:42:56) admin retrieved object P,546 (TLocacao)
+(2019-01-30 13:42:56) admin retrieved object P,184 (TSocio)
+(2019-01-30 13:42:57) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:42:58) admin retrieved object P,551 (TLocacao)
+(2019-01-30 13:42:59) admin retrieved object P,184 (TSocio)
+(2019-01-30 13:43:00) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:43:04) admin retrieved object P,544 (TLocacao)
+(2019-01-30 13:43:04) admin retrieved object P,184 (TSocio)
+(2019-01-30 13:43:06) admin asked if object P,545 (TLocacaoItem) can be deleted. Answer: Yes
+(2019-01-30 13:43:07) admin deleted object P,545 (TLocacaoItem)
+(2019-01-30 13:43:09) admin updated an object stream
+(2019-01-30 13:43:09) admin retrieved object P,544 (TLocacao)
+(2019-01-30 13:43:09) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:43:11) admin retrieved object P,546 (TLocacao)
+(2019-01-30 13:43:11) admin retrieved object P,184 (TSocio)
+(2019-01-30 13:43:12) admin asked if object P,547 (TLocacaoItem) can be deleted. Answer: Yes
+(2019-01-30 13:43:13) admin deleted object P,547 (TLocacaoItem)
+(2019-01-30 13:43:14) admin updated an object stream
+(2019-01-30 13:43:14) admin retrieved object P,546 (TLocacao)
+(2019-01-30 13:43:14) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:43:15) admin retrieved object P,551 (TLocacao)
+(2019-01-30 13:43:15) admin retrieved object P,184 (TSocio)
+(2019-01-30 13:43:16) admin asked if object P,552 (TLocacaoItem) can be deleted. Answer: Yes
+(2019-01-30 13:43:17) admin deleted object P,552 (TLocacaoItem)
+(2019-01-30 13:43:18) admin updated an object stream
+(2019-01-30 13:43:18) admin retrieved object P,551 (TLocacao)
+(2019-01-30 13:43:18) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:43:20) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:43:24) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:43:31) admin retrieved object P,549 (TLocacao)
+(2019-01-30 13:43:31) admin retrieved object P,184 (TSocio)
+(2019-01-30 13:43:33) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:43:33) admin asked if object P,549 (TLocacao) can be deleted. Answer: Yes
+(2019-01-30 13:43:34) admin deleted object P,549 (TLocacao)
+(2019-01-30 13:43:34) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:43:34) admin asked if object P,546 (TLocacao) can be deleted. Answer: Yes
+(2019-01-30 13:43:34) admin deleted object P,546 (TLocacao)
+(2019-01-30 13:43:34) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:43:35) admin asked if object P,544 (TLocacao) can be deleted. Answer: Yes
+(2019-01-30 13:43:35) admin deleted object P,544 (TLocacao)
+(2019-01-30 13:43:35) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:43:36) admin asked if object P,551 (TLocacao) can be deleted. Answer: Yes
+(2019-01-30 13:43:36) admin deleted object P,551 (TLocacao)
+(2019-01-30 13:43:36) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:43:39) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:43:41) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:43:50) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 2RCSTKBJQJF
+(2019-01-30 13:43:51) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 2RCSTKBJQJF
+(2019-01-30 13:44:35) Server ended
+(2019-01-30 13:44:35) ============
+(2019-01-30 13:44:35) 
+(2019-01-30 13:44:35) 
+(2019-01-30 13:47:21) 
+(2019-01-30 13:47:21) 
+(2019-01-30 13:47:21) ==============
+(2019-01-30 13:47:21) Server started
+(2019-01-30 13:47:23) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 1YDEIPHKBFM
+(2019-01-30 13:47:23) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 1YDEIPHKBFM
+(2019-01-30 13:47:23) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-01-30 13:47:24) admin 1YDEIPHKBFM is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:47:24) admin 1YDEIPHKBFM has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:47:25) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:47:25) admin retrieved objects P,184 
+(2019-01-30 13:47:25) admin created object P,561 (TLocacao)
+(2019-01-30 13:47:40) admin asked if object P,561 (TLocacao) can be deleted. Answer: Yes
+(2019-01-30 13:47:40) admin deleted object P,561 (TLocacao)
+(2019-01-30 13:47:42) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 1YDEIPHKBFM
+(2019-01-30 13:47:42) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 1YDEIPHKBFM
+(2019-01-30 13:48:11) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 2BRXRPLFJSH
+(2019-01-30 13:48:11) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 2BRXRPLFJSH
+(2019-01-30 13:48:11) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-01-30 13:48:12) admin 2BRXRPLFJSH is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:48:12) admin 2BRXRPLFJSH has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:48:12) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:48:13) admin retrieved objects P,184 
+(2019-01-30 13:48:14) admin created object P,562 (TLocacao)
+(2019-01-30 13:48:26) admin asked if object P,562 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:48:14 / Asked: 30/01/2019 13:48:14)
+(2019-01-30 13:48:26) admin updated an object stream
+(2019-01-30 13:48:26) admin retrieved object P,562 (TLocacao)
+(2019-01-30 13:48:26) admin created object P,563 (TLocacaoItem)
+(2019-01-30 13:48:37) admin asked if object P,563 (TLocacaoItem) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:48:26 / Asked: 30/01/2019 13:48:26)
+(2019-01-30 13:48:37) admin updated an object stream
+(2019-01-30 13:48:37) admin retrieved object P,563 (TLocacaoItem)
+(2019-01-30 13:48:37) admin retrieved objects P,24 
+(2019-01-30 13:48:39) admin updated an object stream
+(2019-01-30 13:48:39) admin retrieved object P,562 (TLocacao)
+(2019-01-30 13:48:39) admin updated an object stream
+(2019-01-30 13:48:39) admin updated an object stream
+(2019-01-30 13:48:39) admin retrieved object P,562 (TLocacao)
+(2019-01-30 13:48:41) admin asked if object P,562 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:48:39 / Asked: 30/01/2019 13:48:39)
+(2019-01-30 13:48:41) admin updated an object stream
+(2019-01-30 13:48:41) admin retrieved object P,562 (TLocacao)
+(2019-01-30 13:48:41) admin created object P,564 (TLog)
+(2019-01-30 13:48:41) admin updated an object stream
+(2019-01-30 13:48:41) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:48:46) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:48:47) admin 2BRXRPLFJSH is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:48:47) admin 2BRXRPLFJSH has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:48:47) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:48:55) admin asked if object P,562 (TLocacao) can be deleted. Answer: Yes
+(2019-01-30 13:48:56) admin updated an object stream
+(2019-01-30 13:48:56) admin deleted object P,562 (TLocacao)
+(2019-01-30 13:48:56) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:49:00) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:49:19) admin created object P,565 (TLocacao)
+(2019-01-30 13:49:29) admin asked if object P,565 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:49:19 / Asked: 30/01/2019 13:49:19)
+(2019-01-30 13:49:29) admin updated an object stream
+(2019-01-30 13:49:29) admin retrieved object P,565 (TLocacao)
+(2019-01-30 13:49:29) admin created object P,566 (TLocacaoItem)
+(2019-01-30 13:49:34) admin asked if object P,566 (TLocacaoItem) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:49:29 / Asked: 30/01/2019 13:49:29)
+(2019-01-30 13:49:34) admin updated an object stream
+(2019-01-30 13:49:34) admin retrieved object P,566 (TLocacaoItem)
+(2019-01-30 13:49:37) admin updated an object stream
+(2019-01-30 13:49:37) admin retrieved object P,565 (TLocacao)
+(2019-01-30 13:49:37) admin updated an object stream
+(2019-01-30 13:49:37) admin updated an object stream
+(2019-01-30 13:49:37) admin retrieved object P,565 (TLocacao)
+(2019-01-30 13:49:39) admin asked if object P,565 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:49:37 / Asked: 30/01/2019 13:49:37)
+(2019-01-30 13:49:39) admin updated an object stream
+(2019-01-30 13:49:39) admin retrieved object P,565 (TLocacao)
+(2019-01-30 13:49:39) admin created object P,567 (TLog)
+(2019-01-30 13:49:39) admin updated an object stream
+(2019-01-30 13:49:39) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:49:41) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:51:08) admin asked if object P,565 (TLocacao) can be deleted. Answer: Yes
+(2019-01-30 13:52:05) admin updated an object stream
+(2019-01-30 13:52:14) admin deleted object P,565 (TLocacao)
+(2019-01-30 13:52:16) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:52:24) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:52:36) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 2BRXRPLFJSH
+(2019-01-30 13:52:36) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 2BRXRPLFJSH
+(2019-01-30 13:52:59) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 3EARCQHFWMB
+(2019-01-30 13:52:59) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 3EARCQHFWMB
+(2019-01-30 13:52:59) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-01-30 13:53:01) admin 3EARCQHFWMB is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:53:01) admin 3EARCQHFWMB has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:53:01) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:53:01) admin retrieved objects P,184 
+(2019-01-30 13:53:02) admin created object P,568 (TLocacao)
+(2019-01-30 13:53:11) admin asked if object P,568 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:53:02 / Asked: 30/01/2019 13:53:02)
+(2019-01-30 13:53:11) admin updated an object stream
+(2019-01-30 13:53:11) admin retrieved object P,568 (TLocacao)
+(2019-01-30 13:53:11) admin created object P,569 (TLocacaoItem)
+(2019-01-30 13:53:18) admin asked if object P,569 (TLocacaoItem) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:53:11 / Asked: 30/01/2019 13:53:11)
+(2019-01-30 13:53:18) admin updated an object stream
+(2019-01-30 13:53:18) admin retrieved object P,569 (TLocacaoItem)
+(2019-01-30 13:53:18) admin retrieved objects P,24 
+(2019-01-30 13:53:20) admin updated an object stream
+(2019-01-30 13:53:20) admin retrieved object P,568 (TLocacao)
+(2019-01-30 13:53:20) admin updated an object stream
+(2019-01-30 13:53:20) admin updated an object stream
+(2019-01-30 13:53:20) admin retrieved object P,568 (TLocacao)
+(2019-01-30 13:53:22) admin asked if object P,568 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:53:20 / Asked: 30/01/2019 13:53:20)
+(2019-01-30 13:53:22) admin updated an object stream
+(2019-01-30 13:53:22) admin retrieved object P,568 (TLocacao)
+(2019-01-30 13:53:22) admin created object P,570 (TLog)
+(2019-01-30 13:53:22) admin updated an object stream
+(2019-01-30 13:53:22) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:53:23) admin 3EARCQHFWMB is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:53:24) admin 3EARCQHFWMB has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:53:24) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:53:25) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:53:38) admin asked if object P,568 (TLocacao) can be deleted. Answer: Yes
+(2019-01-30 13:53:39) admin deleted object P,568 (TLocacao)
+(2019-01-30 13:53:39) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:53:42) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:54:07) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 3EARCQHFWMB
+(2019-01-30 13:54:07) Disconnection: admin from 127(2019-01-30 13:56:21) 
+(2019-01-30 13:56:21) 
+(2019-01-30 13:56:21) ==============
+(2019-01-30 13:56:21) Server started
+(2019-01-30 13:56:24) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 1YORDCDSYDD
+(2019-01-30 13:56:24) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 1YORDCDSYDD
+(2019-01-30 13:56:24) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-01-30 13:56:26) admin 1YORDCDSYDD is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:56:26) admin 1YORDCDSYDD has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:56:26) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:56:27) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:56:30) admin 1YORDCDSYDD is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:56:30) admin 1YORDCDSYDD has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 13:56:30) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:56:30) admin retrieved objects P,184 
+(2019-01-30 13:56:33) admin created object P,571 (TLocacao)
+(2019-01-30 13:56:39) admin asked if object P,571 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:56:33 / Asked: 30/01/2019 13:56:33)
+(2019-01-30 13:56:39) admin updated an object stream
+(2019-01-30 13:56:39) admin retrieved object P,571 (TLocacao)
+(2019-01-30 13:56:39) admin created object P,572 (TLocacaoItem)
+(2019-01-30 13:56:47) admin asked if object P,572 (TLocacaoItem) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:56:39 / Asked: 30/01/2019 13:56:39)
+(2019-01-30 13:56:47) admin updated an object stream
+(2019-01-30 13:56:47) admin retrieved object P,572 (TLocacaoItem)
+(2019-01-30 13:56:49) admin asked if object P,571 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:56:39 / Asked: 30/01/2019 13:56:39)
+(2019-01-30 13:56:49) admin updated an object stream
+(2019-01-30 13:56:49) admin retrieved object P,571 (TLocacao)
+(2019-01-30 13:56:49) admin created object P,573 (TLog)
+(2019-01-30 13:56:49) admin updated an object stream
+(2019-01-30 13:56:49) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:56:52) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:57:00) admin retrieved object P,571 (TLocacao)
+(2019-01-30 13:57:00) admin retrieved object P,184 (TSocio)
+(2019-01-30 13:57:02) admin updated an object stream
+(2019-01-30 13:57:02) admin retrieved object P,571 (TLocacao)
+(2019-01-30 13:57:02) admin updated an object stream
+(2019-01-30 13:57:02) admin updated an object stream
+(2019-01-30 13:57:02) admin retrieved object P,571 (TLocacao)
+(2019-01-30 13:57:05) admin asked if object P,571 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:57:02 / Asked: 30/01/2019 13:57:02)
+(2019-01-30 13:57:05) admin updated an object stream
+(2019-01-30 13:57:05) admin retrieved object P,571 (TLocacao)
+(2019-01-30 13:57:05) admin created object P,574 (TLog)
+(2019-01-30 13:57:05) admin updated an object stream
+(2019-01-30 13:57:05) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:57:08) admin 1YORDCDSYDD is invoking method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 13:57:08) admin 1YORDCDSYDD has just invoked method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 13:57:13) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:57:18) admin created object P,575 (TLocacao)
+(2019-01-30 13:57:26) admin asked if object P,575 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:57:18 / Asked: 30/01/2019 13:57:18)
+(2019-01-30 13:57:26) admin updated an object stream
+(2019-01-30 13:57:26) admin retrieved object P,575 (TLocacao)
+(2019-01-30 13:57:26) admin created object P,576 (TLocacaoItem)
+(2019-01-30 13:57:34) admin asked if object P,576 (TLocacaoItem) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:57:26 / Asked: 30/01/2019 13:57:26)
+(2019-01-30 13:57:34) admin updated an object stream
+(2019-01-30 13:57:34) admin retrieved object P,576 (TLocacaoItem)
+(2019-01-30 13:57:36) admin updated an object stream
+(2019-01-30 13:57:36) admin retrieved object P,575 (TLocacao)
+(2019-01-30 13:58:27) admin updated an object stream
+(2019-01-30 13:58:27) admin retrieved object P,575 (TLocacao)
+(2019-01-30 13:58:29) admin asked if object P,575 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 13:58:27 / Asked: 30/01/2019 13:58:27)
+(2019-01-30 13:58:29) admin updated an object stream
+(2019-01-30 13:58:29) admin retrieved object P,575 (TLocacao)
+(2019-01-30 13:58:29) admin created object P,577 (TLog)
+(2019-01-30 13:58:29) admin updated an object stream
+(2019-01-30 13:58:29) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:58:33) admin retrieved object P,571 (TLocacao)
+(2019-01-30 13:58:33) admin retrieved object P,184 (TSocio)
+(2019-01-30 13:58:37) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:58:41) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 13:58:41) admin retrieved object P,24 (TFilme)
+(2019-01-30 13:58:41) admin retrieved object P,18 (TDiretor)
+(2019-01-30 13:58:49) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:32:46) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:32:47) admin retrieved object P,575 (TLocacao)
+(2019-01-30 15:32:47) admin retrieved object P,184 (TSocio)
+(2019-01-30 15:32:49) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:32:50) admin retrieved object P,571 (TLocacao)
+(2019-01-30 15:32:50) admin retrieved object P,184 (TSocio)
+(2019-01-30 15:32:52) admin updated an object stream
+(2019-01-30 15:32:52) admin updated an object stream
+(2019-01-30 15:32:52) admin updated an object stream
+(2019-01-30 15:32:52) admin retrieved object P,571 (TLocacao)
+(2019-01-30 15:32:55) admin asked if object P,571 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 15:32:52 / Asked: 30/01/2019 15:32:52)
+(2019-01-30 15:32:55) admin updated an object stream
+(2019-01-30 15:32:55) admin retrieved object P,571 (TLocacao)
+(2019-01-30 15:32:55) admin created object P,578 (TLog)
+(2019-01-30 15:32:55) admin updated an object stream
+(2019-01-30 15:32:55) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:32:59) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:33:04) admin retrieved object P,571 (TLocacao)
+(2019-01-30 15:33:04) admin retrieved object P,184 (TSocio)
+(2019-01-30 15:33:19) admin asked if object P,571 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 15:32:55 / Asked: 30/01/2019 15:32:55)
+(2019-01-30 15:33:19) admin updated an object stream
+(2019-01-30 15:33:19) admin retrieved object P,571 (TLocacao)
+(2019-01-30 15:33:19) admin created object P,579 (TLog)
+(2019-01-30 15:33:19) admin updated an object stream
+(2019-01-30 15:33:19) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:33:22) admin 1YORDCDSYDD is invoking method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:33:22) admin 1YORDCDSYDD has just invoked method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:33:23) admin 1YORDCDSYDD is invoking method TLocacao.FaturarLocacao on object P,571 
+(2019-01-30 15:33:23) admin 1YORDCDSYDD has just invoked method TLocacao.FaturarLocacao on object P,571 
+(2019-01-30 15:33:23) admin 1YORDCDSYDD is invoking method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:33:24) admin 1YORDCDSYDD has just invoked method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:33:24) admin retrieved objects P,580 
+(2019-01-30 15:33:26) admin 1YORDCDSYDD is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 15:33:26) admin 1YORDCDSYDD has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 15:33:26) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:33:26) admin retrieved objects P,571 
+(2019-01-30 15:33:31) admin 1YORDCDSYDD is invoking method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:33:31) admin 1YORDCDSYDD has just invoked method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:33:31) admin retrieved objects P,580 
+(2019-01-30 15:33:37) admin retrieved object P,580 (TNotaDebito)
+(2019-01-30 15:33:37) admin retrieved object P,571 (TLocacao)
+(2019-01-30 15:33:46) admin asked if object P,580 (TNotaDebito) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 15:33:23 / Asked: 30/01/2019 15:33:23)
+(2019-01-30 15:33:46) admin updated an object stream
+(2019-01-30 15:33:46) admin retrieved object P,580 (TNotaDebito)
+(2019-01-30 15:33:46) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:33:49) admin 1YORDCDSYDD is invoking method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:33:49) admin 1YORDCDSYDD has just invoked method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:33:49) admin retrieved objects P,580 
+(2019-01-30 15:33:50) admin 1YORDCDSYDD is invoking method TLocacao.FaturarLocacao on object P,571 
+(2019-01-30 15:33:50) admin 1YORDCDSYDD has just invoked method TLocacao.FaturarLocacao on object P,571 
+(2019-01-30 15:33:50) admin 1YORDCDSYDD is invoking method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:33:50) admin 1YORDCDSYDD has just invoked method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:33:50) admin retrieved objects P,581 P,580 
+(2019-01-30 15:33:52) admin retrieved object P,571 (TLocacao)
+(2019-01-30 15:33:52) admin 1YORDCDSYDD is invoking method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:33:53) admin 1YORDCDSYDD has just invoked method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:33:53) admin retrieved objects P,580 P,581 
+(2019-01-30 15:33:59) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:33:59) admin retrieved objects P,571 
+(2019-01-30 15:34:06) admin retrieved object P,580 (TNotaDebito)
+(2019-01-30 15:34:06) admin retrieved object P,571 (TLocacao)
+(2019-01-30 15:34:09) admin asked if object P,580 (TNotaDebito) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 15:33:46 / Asked: 30/01/2019 15:33:46)
+(2019-01-30 15:34:09) admin updated an object stream
+(2019-01-30 15:34:09) admin retrieved object P,580 (TNotaDebito)
+(2019-01-30 15:34:09) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:34:15) admin 1YORDCDSYDD is invoking method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:34:15) admin 1YORDCDSYDD has just invoked method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:34:15) admin retrieved objects P,580 P,581 
+(2019-01-30 15:34:17) admin 1YORDCDSYDD is invoking method TLocacao.FaturarLocacao on object P,571 
+(2019-01-30 15:34:17) admin 1YORDCDSYDD has just invoked method TLocacao.FaturarLocacao on object P,571 
+(2019-01-30 15:34:17) admin 1YORDCDSYDD is invoking method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:34:17) admin 1YORDCDSYDD has just invoked method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:34:17) admin retrieved objects P,582 P,581 P,580 
+(2019-01-30 15:34:19) admin retrieved object P,571 (TLocacao)
+(2019-01-30 15:34:19) admin 1YORDCDSYDD is invoking method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:34:19) admin 1YORDCDSYDD has just invoked method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:34:19) admin retrieved objects P,580 P,581 P,582 
+(2019-01-30 15:34:25) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:34:25) admin retrieved objects P,571 
+(2019-01-30 15:34:31) admin retrieved object P,460 (TNotaDebito)
+(2019-01-30 15:34:38) admin asked if object P,460 (TNotaDebito) can be updated. Answer: Yes (Object last update timestamp: 29/01/2019 14:12:27 / Asked: 29/01/2019 14:12:27)
+(2019-01-30 15:34:38) admin updated an object stream
+(2019-01-30 15:34:38) admin retrieved object P,460 (TNotaDebito)
+(2019-01-30 15:34:38) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:35:00) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:35:00) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:35:05) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:35:07) admin 1YORDCDSYDD is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 15:35:07) admin 1YORDCDSYDD has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 15:35:07) admin queried persistent objects (TDiretor): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:36:08) admin retrieved object P,149 (TDiretor)
+(2019-01-30 15:36:11) admin queried persistent objects (TDiretor): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:36:13) admin queried persistent objects (TDiretor): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:36:14) admin queried persistent objects (TDiretor): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:36:16) admin 1YORDCDSYDD is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 15:36:16) admin 1YORDCDSYDD has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 15:36:16) admin queried persistent objects (TSocio): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:36:18) admin queried persistent objects (TSocio): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:36:18) admin retrieved object P,184 (TSocio)
+(2019-01-30 15:36:20) admin queried persistent objects (TSocio): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:36:21) admin 1YORDCDSYDD is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 15:36:21) admin 1YORDCDSYDD has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 15:36:21) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:36:23) admin asked if object P,558 (TOrdemCompra) can be deleted. Answer: No. Reason: A Ordem de Compra está finalizada.
+(2019-01-30 15:36:27) admin asked if object P,513 (TOrdemCompra) can be deleted. Answer: No. Reason: A Ordem de Compra está finalizada.
+(2019-01-30 15:36:29) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 1YORDCDSYDD
+(2019-01-30 15:36:30) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 1YORDCDSYDD
+(2019-01-30 15:37:50) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 2XRFHTWXWUT
+(2019-01-30 15:37:50) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 2XRFHTWXWUT
+(2019-01-30 15:37:50) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-01-30 15:37:51) admin 2XRFHTWXWUT is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 15:37:51) admin 2XRFHTWXWUT has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 15:37:51) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:37:51) admin retrieved objects P,184 
+(2019-01-30 15:37:54) admin retrieved object P,575 (TLocacao)
+(2019-01-30 15:37:54) admin retrieved object P,184 (TSocio)
+(2019-01-30 15:37:54) admin retrieved objects P,24 
+(2019-01-30 15:37:55) admin updated an object stream
+(2019-01-30 15:37:55) admin retrieved object P,575 (TLocacao)
+(2019-01-30 15:38:03) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:38:34) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 2XRFHTWXWUT
+(2019-01-30 15:38:34) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 2XRFHTWXWUT
+(2019-01-30 15:38:43) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 3TIHSBAGCLP
+(2019-01-30 15:38:43) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 3TIHSBAGCLP
+(2019-01-30 15:38:43) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-01-30 15:38:45) admin 3TIHSBAGCLP is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 15:38:45) admin 3TIHSBAGCLP has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 15:38:45) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:38:45) admin retrieved objects P,184 
+(2019-01-30 15:38:48) admin 3TIHSBAGCLP is invoking method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:38:48) admin 3TIHSBAGCLP has just invoked method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:38:48) admin retrieved objects P,580 P,581 P,582 
+(2019-01-30 15:39:00) admin retrieved object P,575 (TLocacao)
+(2019-01-30 15:39:05) admin retrieved object P,571 (TLocacao)
+(2019-01-30 15:39:05) admin 3TIHSBAGCLP is invoking method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:39:05) admin 3TIHSBAGCLP has just invoked method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:39:05) admin retrieved objects P,580 P,581 P,582 
+(2019-01-30 15:39:26) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 3TIHSBAGCLP
+(2019-01-30 15:39:26) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 3TIHSBAGCLP
+(2019-01-30 15:40:07) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 4JRDORVCAJL
+(2019-01-30 15:40:07) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 4JRDORVCAJL
+(2019-01-30 15:40:07) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-01-30 15:40:09) admin 4JRDORVCAJL is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 15:40:09) admin 4JRDORVCAJL has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 15:40:09) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 15:40:09) admin retrieved objects P,184 
+(2019-01-30 15:40:11) admin 4JRDORVCAJL is invoking method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:40:11) admin 4JRDORVCAJL has just invoked method TLocacao.GetArrayNotaDebito on object P,571 
+(2019-01-30 15:40:11) admin retrieved objects P,580 P,581 P,582 
+(2019-01-30 15:40:14) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 4JRDORVCAJL
+(2019-01-30 15:40:14) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 4JRDORVCAJL
+(2019-01-30 15:40:29) Server ended
+(2019-01-30 15:40:29) ============
+(2019-01-30 15:40:29) 
+(2019-01-30 15:40:29) 
+(2019-01-30 16:02:12) 
+(2019-01-30 16:02:12) 
+(2019-01-30 16:02:12) ==============
+(2019-01-30 16:02:12) Server started
+(2019-01-30 16:02:25) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 1TRYUFYGQKO
+(2019-01-30 16:02:25) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 1TRYUFYGQKO
+(2019-01-30 16:02:25) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-01-30 16:02:27) admin 1TRYUFYGQKO is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 16:02:27) admin 1TRYUFYGQKO has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 16:02:27) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:27) admin retrieved objects P,184 
+(2019-01-30 16:02:29) admin 1TRYUFYGQKO is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 16:02:29) admin 1TRYUFYGQKO has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 16:02:29) admin 1TRYUFYGQKO is invoking method TSysAccessControl.CheckLoggedUserPermissions on object N,1 (_gSysAccessControl) 
+(2019-01-30 16:02:29) admin 1TRYUFYGQKO has just invoked method TSysAccessControl.CheckLoggedUserPermissions on object N,1 (_gSysAccessControl) 
+(2019-01-30 16:02:29) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:42) admin retrieved object P,516 (TLog)
+(2019-01-30 16:02:44) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 16; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:46) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 15; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:46) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 14; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:46) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 12; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:46) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 11; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:46) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 10; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:46) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 8; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:46) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 7; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:46) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 6; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:46) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 5; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:47) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 4; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:47) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 3; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:47) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 2; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:47) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 1; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:02:47) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:03:20) admin 1TRYUFYGQKO is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 16:03:20) admin 1TRYUFYGQKO has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 16:03:20) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:03:24) admin retrieved object P,571 (TLocacao)
+(2019-01-30 16:03:24) admin retrieved object P,184 (TSocio)
+(2019-01-30 16:03:25) admin updated an object stream
+(2019-01-30 16:03:25) admin updated an object stream
+(2019-01-30 16:03:25) admin updated an object stream
+(2019-01-30 16:03:25) admin retrieved object P,571 (TLocacao)
+(2019-01-30 16:03:29) admin asked if object P,571 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 30/01/2019 16:03:25 / Asked: 30/01/2019 16:03:25)
+(2019-01-30 16:03:29) admin updated an object stream
+(2019-01-30 16:03:29) admin retrieved object P,571 (TLocacao)
+(2019-01-30 16:03:29) admin created object P,583 (TLog)
+(2019-01-30 16:03:29) admin updated an object stream
+(2019-01-30 16:03:29) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:03:33) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 16:05:35) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 1TRYUFYGQKO
+(2019-01-30 16:05:35) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 1TRYUFYGQKO
+(2019-01-30 16:05:43) Server ended
+(2019-01-30 16:05:43) ============
+(2019-01-30 16:05:43) 
+(2019-01-30 16:05:43) 
+(2019-01-30 17:01:51) 
+(2019-01-30 17:01:51) 
+(2019-01-30 17:01:51) ==============
+(2019-01-30 17:01:51) Server started
+(2019-01-30 17:02:01) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 1KWLNKEXEQH
+(2019-01-30 17:02:01) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 1KWLNKEXEQH
+(2019-01-30 17:02:01) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-01-30 17:02:03) admin 1KWLNKEXEQH is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:02:03) admin 1KWLNKEXEQH has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:02:03) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 17:02:03) admin retrieved objects P,184 
+(2019-01-30 17:02:12) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 17:02:15) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 1; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 17:02:25) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 1KWLNKEXEQH
+(2019-01-30 17:02:25) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 1KWLNKEXEQH
+(2019-01-30 17:02:31) Server ended
+(2019-01-30 17:02:31) ============
+(2019-01-30 17:02:31) 
+(2019-01-30 17:02:31) 
+(2019-01-30 17:09:11) 
+(2019-01-30 17:09:11) 
+(2019-01-30 17:09:11) ==============
+(2019-01-30 17:09:11) Server started
+(2019-01-30 17:09:24) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 1RFWNVDMMRE
+(2019-01-30 17:09:24) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 1RFWNVDMMRE
+(2019-01-30 17:09:24) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-01-30 17:09:26) admin 1RFWNVDMMRE is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:09:26) admin 1RFWNVDMMRE has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:09:26) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 17:09:26) admin retrieved objects P,184 
+(2019-01-30 17:09:30) admin asked if object P,571 (TLocacao) can be deleted. Answer: No. Reason: Associação TNotaDebito_TLocacao bloqueia a exclusão de objeto do tipo TLocacao. Objeto associado a algum do tipo TNotaDebito.
+(2019-01-30 17:09:33) admin asked if object P,448 (TLocacao) can be deleted. Answer: No. Reason: Associação TNotaDebito_TLocacao bloqueia a exclusão de objeto do tipo TLocacao. Objeto associado a algum do tipo TNotaDebito.
+(2019-01-30 17:09:36) admin asked if object P,462 (TLocacao) can be deleted. Answer: No. Reason: Não é permitido excluir uma Ficha de Locação com Status Em Locação ou Finalizado.
+(2019-01-30 17:09:41) admin 1RFWNVDMMRE is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:09:42) admin 1RFWNVDMMRE has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:09:42) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 17:09:45) admin retrieved object P,513 (TOrdemCompra)
+(2019-01-30 17:09:46) admin retrieved objects P,24 
+(2019-01-30 17:09:49) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 17:09:50) admin retrieved object P,558 (TOrdemCompra)
+(2019-01-30 17:09:53) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 17:15:45) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 1RFWNVDMMRE
+(2019-01-30 17:15:45) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 1RFWNVDMMRE
+(2019-01-30 17:15:51) Server ended
+(2019-01-30 17:15:51) ============
+(2019-01-30 17:15:51) 
+(2019-01-30 17:15:51) 
+(2019-01-30 17:21:07) 
+(2019-01-30 17:21:07) 
+(2019-01-30 17:21:07) ==============
+(2019-01-30 17:21:07) Server started
+(2019-01-30 17:22:33) Server ended
+(2019-01-30 17:22:33) ============
+(2019-01-30 17:22:33) 
+(2019-01-30 17:22:33) 
+(2019-01-30 17:25:31) 
+(2019-01-30 17:25:31) 
+(2019-01-30 17:25:31) ==============
+(2019-01-30 17:25:31) Server started
+(2019-01-30 17:26:19) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 1XTGPMXWBOT
+(2019-01-30 17:26:19) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 1XTGPMXWBOT
+(2019-01-30 17:26:19) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-01-30 17:26:22) admin 1XTGPMXWBOT is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:26:22) admin 1XTGPMXWBOT has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:26:22) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 17:26:35) admin 1XTGPMXWBOT is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:26:35) admin 1XTGPMXWBOT has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:26:35) admin 1XTGPMXWBOT is invoking method TSysAccessControl.CheckLoggedUserPermissions on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:26:35) admin 1XTGPMXWBOT has just invoked method TSysAccessControl.CheckLoggedUserPermissions on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:26:35) admin queried persistent objects (TLog): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 17:27:53) admin 1XTGPMXWBOT is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:27:53) admin 1XTGPMXWBOT has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:27:53) admin queried persistent objects (TSocio): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 17:30:32) admin 1XTGPMXWBOT is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:30:32) admin 1XTGPMXWBOT has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-01-30 17:30:32) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 17:31:38) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-01-30 17:32:05) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 1XTGPMXWBOT
+(2019-01-30 17:32:05) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 1XTGPMXWBOT
+(2019-01-30 17:54:34) Server ended
+(2019-01-30 17:54:34) ============
+(2019-01-30 17:54:34) 
+(2019-01-30 17:54:34) 
+(2019-01-30 17:58:47) 
+(2019-01-30 17:58:47) 
+(2019-01-30 17:58:47) ==============
+(2019-01-30 17:58:47) Server started
+(2019-01-30 17:58:49) Server ended
+(2019-01-30 17:58:49) ============
+(2019-01-30 17:58:49) 
+(2019-01-30 17:58:49) 
+(2019-02-01 09:26:53) 
+(2019-02-01 09:26:53) 
+(2019-02-01 09:26:53) ==============
+(2019-02-01 09:26:53) Server started
+(2019-02-01 09:27:10) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 1MJLHIMLJDY
+(2019-02-01 09:27:10) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 1MJLHIMLJDY
+(2019-02-01 09:27:10) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-02-01 09:27:12) admin 1MJLHIMLJDY is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:27:12) admin 1MJLHIMLJDY has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:27:12) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:27:12) admin retrieved objects P,184 
+(2019-02-01 09:27:19) admin 1MJLHIMLJDY is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:27:19) admin 1MJLHIMLJDY has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:27:19) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:27:21) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:27:21) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:31:19) admin asked if object P,582 (TNotaDebito) can be deleted. Answer: Yes
+(2019-02-01 09:31:21) admin asked if object P,581 (TNotaDebito) can be deleted. Answer: No. Reason: Não é permitido excluir uma Nota de Débito quando já existem outra com numeração subsequente.
+(2019-02-01 09:31:27) admin created object P,584 (TNotaDebito)
+(2019-02-01 09:31:29) admin asked if object P,584 (TNotaDebito) can be deleted. Answer: Yes
+(2019-02-01 09:31:29) admin deleted object P,584 (TNotaDebito)
+(2019-02-01 09:31:31) admin created object P,585 (TNotaDebito)
+(2019-02-01 09:31:33) admin asked if object P,585 (TNotaDebito) can be deleted. Answer: Yes
+(2019-02-01 09:31:33) admin deleted object P,585 (TNotaDebito)
+(2019-02-01 09:31:42) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 1MJLHIMLJDY
+(2019-02-01 09:31:42) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 1MJLHIMLJDY
+(2019-02-01 09:35:34) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 2TCRJLMCITO
+(2019-02-01 09:35:34) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 2TCRJLMCITO
+(2019-02-01 09:35:34) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-02-01 09:35:41) admin 2TCRJLMCITO is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:35:42) admin 2TCRJLMCITO has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:35:42) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:35:42) admin retrieved objects P,571 P,540 P,448 
+(2019-02-01 09:35:43) admin 2TCRJLMCITO is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:35:43) admin 2TCRJLMCITO has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:35:43) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:35:43) admin retrieved objects P,184 
+(2019-02-01 09:35:47) admin 2TCRJLMCITO is invoking method TLocacao.GetArrayNotaDebito on object P,540 
+(2019-02-01 09:35:47) admin 2TCRJLMCITO has just invoked method TLocacao.GetArrayNotaDebito on object P,540 
+(2019-02-01 09:35:47) admin retrieved objects P,560 
+(2019-02-01 09:35:59) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 2TCRJLMCITO
+(2019-02-01 09:35:59) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 2TCRJLMCITO
+(2019-02-01 09:36:38) Server ended
+(2019-02-01 09:36:38) ============
+(2019-02-01 09:36:38) 
+(2019-02-01 09:36:38) 
+(2019-02-01 09:38:06) 
+(2019-02-01 09:38:06) 
+(2019-02-01 09:38:06) ==============
+(2019-02-01 09:38:06) Server started
+(2019-02-01 09:38:22) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 1JHTJXSEXPF
+(2019-02-01 09:38:22) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 1JHTJXSEXPF
+(2019-02-01 09:38:22) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-02-01 09:38:23) admin 1JHTJXSEXPF is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:38:23) admin 1JHTJXSEXPF has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:38:23) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:38:23) admin retrieved objects P,184 
+(2019-02-01 09:38:28) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 1JHTJXSEXPF
+(2019-02-01 09:38:29) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 1JHTJXSEXPF
+(2019-02-01 09:45:30) Server ended
+(2019-02-01 09:45:30) ============
+(2019-02-01 09:45:30) 
+(2019-02-01 09:45:30) 
+(2019-02-01 09:47:15) 
+(2019-02-01 09:47:15) 
+(2019-02-01 09:47:15) ==============
+(2019-02-01 09:47:15) Server started
+(2019-02-01 09:47:27) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 1SPMRTUWBUF
+(2019-02-01 09:47:27) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 1SPMRTUWBUF
+(2019-02-01 09:47:27) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-02-01 09:47:40) admin 1SPMRTUWBUF is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:47:40) admin 1SPMRTUWBUF has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:47:40) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:47:44) admin 1SPMRTUWBUF is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:47:44) admin 1SPMRTUWBUF has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:47:44) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:47:44) admin retrieved objects P,184 
+(2019-02-01 09:47:48) admin 1SPMRTUWBUF is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:47:48) admin 1SPMRTUWBUF has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:47:48) admin queried persistent objects (TSocio): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:47:50) admin created object P,586 (TSocio)
+(2019-02-01 09:48:17) admin asked if object P,586 (TSocio) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:47:50 / Asked: 01/02/2019 09:47:50)
+(2019-02-01 09:48:17) admin updated an object stream
+(2019-02-01 09:48:17) admin retrieved object P,586 (TSocio)
+(2019-02-01 09:48:17) admin created object P,587 (TLog)
+(2019-02-01 09:48:17) admin updated an object stream
+(2019-02-01 09:48:17) admin retrieved object P,587 (TLog)
+(2019-02-01 09:48:17) admin queried persistent objects (TSocio): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:48:19) admin 1SPMRTUWBUF is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:48:20) admin 1SPMRTUWBUF has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:48:20) admin queried persistent objects (TDiretor): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:48:22) admin asked if object P,479 (TDiretor) can be deleted. Answer: Yes
+(2019-02-01 09:48:24) admin created object P,588 (TLog)
+(2019-02-01 09:48:24) admin updated an object stream
+(2019-02-01 09:48:24) admin retrieved object P,588 (TLog)
+(2019-02-01 09:48:24) admin deleted object P,479 (TDiretor)
+(2019-02-01 09:48:24) admin queried persistent objects (TDiretor): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:48:25) admin asked if object P,149 (TDiretor) can be deleted. Answer: Yes
+(2019-02-01 09:48:26) admin created object P,589 (TLog)
+(2019-02-01 09:48:26) admin updated an object stream
+(2019-02-01 09:48:26) admin retrieved object P,589 (TLog)
+(2019-02-01 09:48:26) admin deleted object P,149 (TDiretor)
+(2019-02-01 09:48:26) admin queried persistent objects (TDiretor): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:49:00) admin created object P,590 (TDiretor)
+(2019-02-01 09:49:54) admin asked if object P,590 (TDiretor) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:49:00 / Asked: 01/02/2019 09:49:00)
+(2019-02-01 09:49:54) admin updated an object stream
+(2019-02-01 09:49:54) admin retrieved object P,590 (TDiretor)
+(2019-02-01 09:49:54) admin created object P,592 (TLog)
+(2019-02-01 09:49:54) admin updated an object stream
+(2019-02-01 09:49:54) admin retrieved object P,592 (TLog)
+(2019-02-01 09:49:54) admin queried persistent objects (TDiretor): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:49:56) admin created object P,593 (TFilme)
+(2019-02-01 09:51:07) admin asked if object P,593 (TFilme) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:49:56 / Asked: 01/02/2019 09:49:56)
+(2019-02-01 09:51:07) admin updated an object stream
+(2019-02-01 09:51:07) admin retrieved object P,593 (TFilme)
+(2019-02-01 09:51:07) admin created object P,594 (TLog)
+(2019-02-01 09:51:07) admin updated an object stream
+(2019-02-01 09:51:07) admin retrieved object P,594 (TLog)
+(2019-02-01 09:51:07) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:51:11) admin retrieved object P,593 (TFilme)
+(2019-02-01 09:51:11) admin retrieved object P,590 (TDiretor)
+(2019-02-01 09:51:28) admin asked if object P,593 (TFilme) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:51:07 / Asked: 01/02/2019 09:51:07)
+(2019-02-01 09:51:28) admin updated an object stream
+(2019-02-01 09:51:28) admin retrieved object P,593 (TFilme)
+(2019-02-01 09:51:28) admin created object P,595 (TLog)
+(2019-02-01 09:51:28) admin updated an object stream
+(2019-02-01 09:51:28) admin retrieved object P,595 (TLog)
+(2019-02-01 09:51:28) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:51:36) admin 1SPMRTUWBUF is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:51:36) admin 1SPMRTUWBUF has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:51:36) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:51:38) admin created object P,596 (TOrdemCompra)
+(2019-02-01 09:51:46) admin asked if object P,596 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:51:38 / Asked: 01/02/2019 09:51:38)
+(2019-02-01 09:51:46) admin updated an object stream
+(2019-02-01 09:51:46) admin retrieved object P,596 (TOrdemCompra)
+(2019-02-01 09:51:46) admin created object P,597 (TOrdemCompraItem)
+(2019-02-01 09:51:56) admin asked if object P,597 (TOrdemCompraItem) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:51:46 / Asked: 01/02/2019 09:51:46)
+(2019-02-01 09:51:56) admin updated an object stream
+(2019-02-01 09:51:56) admin retrieved object P,597 (TOrdemCompraItem)
+(2019-02-01 09:51:57) admin updated an object stream
+(2019-02-01 09:51:57) admin retrieved object P,596 (TOrdemCompra)
+(2019-02-01 09:51:57) admin updated an object stream
+(2019-02-01 09:51:57) admin updated an object stream
+(2019-02-01 09:51:57) admin retrieved object P,596 (TOrdemCompra)
+(2019-02-01 09:51:59) admin asked if object P,596 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:51:57 / Asked: 01/02/2019 09:51:57)
+(2019-02-01 09:52:09) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 1SPMRTUWBUF
+(2019-02-01 09:52:09) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 1SPMRTUWBUF
+(2019-02-01 09:53:52) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 2PNRKYNKJUV
+(2019-02-01 09:53:52) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 2PNRKYNKJUV
+(2019-02-01 09:53:52) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-02-01 09:53:54) admin 2PNRKYNKJUV is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:53:54) admin 2PNRKYNKJUV has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:53:54) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:53:56) admin created object P,598 (TOrdemCompra)
+(2019-02-01 09:54:04) admin asked if object P,598 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:53:56 / Asked: 01/02/2019 09:53:56)
+(2019-02-01 09:54:04) admin updated an object stream
+(2019-02-01 09:54:04) admin retrieved object P,598 (TOrdemCompra)
+(2019-02-01 09:54:04) admin created object P,599 (TOrdemCompraItem)
+(2019-02-01 09:54:10) admin asked if object P,599 (TOrdemCompraItem) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:54:04 / Asked: 01/02/2019 09:54:04)
+(2019-02-01 09:54:10) admin updated an object stream
+(2019-02-01 09:54:10) admin retrieved object P,599 (TOrdemCompraItem)
+(2019-02-01 09:54:10) admin retrieved objects P,593 
+(2019-02-01 09:54:11) admin asked if object P,598 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:54:04 / Asked: 01/02/2019 09:54:04)
+(2019-02-01 09:54:11) admin updated an object stream
+(2019-02-01 09:54:11) admin retrieved object P,598 (TOrdemCompra)
+(2019-02-01 09:54:14) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:54:16) admin created object P,600 (TOrdemCompra)
+(2019-02-01 09:54:22) admin asked if object P,600 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:54:16 / Asked: 01/02/2019 09:54:16)
+(2019-02-01 09:54:22) admin updated an object stream
+(2019-02-01 09:54:22) admin retrieved object P,600 (TOrdemCompra)
+(2019-02-01 09:54:22) admin created object P,601 (TOrdemCompraItem)
+(2019-02-01 09:54:28) admin asked if object P,601 (TOrdemCompraItem) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:54:22 / Asked: 01/02/2019 09:54:22)
+(2019-02-01 09:54:29) admin updated an object stream
+(2019-02-01 09:54:29) admin retrieved object P,601 (TOrdemCompraItem)
+(2019-02-01 09:54:32) admin updated an object stream
+(2019-02-01 09:54:32) admin retrieved object P,600 (TOrdemCompra)
+(2019-02-01 09:54:32) admin updated an object stream
+(2019-02-01 09:54:32) admin updated an object stream
+(2019-02-01 09:54:32) admin retrieved object P,600 (TOrdemCompra)
+(2019-02-01 09:54:34) admin asked if object P,600 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:54:32 / Asked: 01/02/2019 09:54:32)
+(2019-02-01 09:54:42) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 2PNRKYNKJUV
+(2019-02-01 09:54:43) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 2PNRKYNKJUV
+(2019-02-01 09:55:17) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 3CNTIQKWQCV
+(2019-02-01 09:55:17) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 3CNTIQKWQCV
+(2019-02-01 09:55:17) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-02-01 09:55:19) admin 3CNTIQKWQCV is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:55:19) admin 3CNTIQKWQCV has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:55:19) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:55:19) admin retrieved objects P,571 P,540 P,448 
+(2019-02-01 09:55:20) admin 3CNTIQKWQCV is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:55:20) admin 3CNTIQKWQCV has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:55:20) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:55:24) admin created object P,602 (TOrdemCompra)
+(2019-02-01 09:55:32) admin asked if object P,602 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:55:24 / Asked: 01/02/2019 09:55:24)
+(2019-02-01 09:55:32) admin updated an object stream
+(2019-02-01 09:55:32) admin retrieved object P,602 (TOrdemCompra)
+(2019-02-01 09:55:32) admin created object P,603 (TOrdemCompraItem)
+(2019-02-01 09:55:37) admin asked if object P,603 (TOrdemCompraItem) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:55:32 / Asked: 01/02/2019 09:55:32)
+(2019-02-01 09:55:37) admin updated an object stream
+(2019-02-01 09:55:37) admin retrieved object P,603 (TOrdemCompraItem)
+(2019-02-01 09:55:37) admin retrieved objects P,24 
+(2019-02-01 09:55:38) admin updated an object stream
+(2019-02-01 09:55:38) admin retrieved object P,602 (TOrdemCompra)
+(2019-02-01 09:55:38) admin updated an object stream
+(2019-02-01 09:55:38) admin updated an object stream
+(2019-02-01 09:55:38) admin retrieved object P,602 (TOrdemCompra)
+(2019-02-01 09:55:47) admin asked if object P,602 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:55:38 / Asked: 01/02/2019 09:55:38)
+(2019-02-01 09:56:07) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 3CNTIQKWQCV
+(2019-02-01 09:56:08) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 3CNTIQKWQCV
+(2019-02-01 09:56:16) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 4MLPKAWTJVC
+(2019-02-01 09:56:16) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 4MLPKAWTJVC
+(2019-02-01 09:56:16) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-02-01 09:56:18) admin 4MLPKAWTJVC is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:56:18) admin 4MLPKAWTJVC has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 09:56:18) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 09:56:20) admin created object P,604 (TOrdemCompra)
+(2019-02-01 09:56:25) admin asked if object P,604 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:56:20 / Asked: 01/02/2019 09:56:20)
+(2019-02-01 09:56:25) admin updated an object stream
+(2019-02-01 09:56:25) admin retrieved object P,604 (TOrdemCompra)
+(2019-02-01 09:56:25) admin created object P,605 (TOrdemCompraItem)
+(2019-02-01 09:56:58) admin asked if object P,605 (TOrdemCompraItem) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:56:25 / Asked: 01/02/2019 09:56:25)
+(2019-02-01 09:56:58) admin updated an object stream
+(2019-02-01 09:56:58) admin retrieved object P,605 (TOrdemCompraItem)
+(2019-02-01 09:56:58) admin retrieved objects P,593 
+(2019-02-01 09:57:03) admin updated an object stream
+(2019-02-01 09:57:03) admin retrieved object P,604 (TOrdemCompra)
+(2019-02-01 09:57:03) admin updated an object stream
+(2019-02-01 09:57:03) admin updated an object stream
+(2019-02-01 09:57:03) admin retrieved object P,604 (TOrdemCompra)
+(2019-02-01 09:59:19) admin asked if object P,604 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 09:57:03 / Asked: 01/02/2019 09:57:03)
+(2019-02-01 09:59:35) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 4MLPKAWTJVC
+(2019-02-01 09:59:35) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 4MLPKAWTJVC
+(2019-02-01 09:59:48) Server ended
+(2019-02-01 09:59:48) ============
+(2019-02-01 09:59:48) 
+(2019-02-01 09:59:48) 
+(2019-02-01 10:03:40) 
+(2019-02-01 10:03:40) 
+(2019-02-01 10:03:40) ==============
+(2019-02-01 10:03:40) Server started
+(2019-02-01 10:03:43) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 1FOVLVNGVMP
+(2019-02-01 10:03:43) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 1FOVLVNGVMP
+(2019-02-01 10:03:43) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-02-01 10:03:44) admin 1FOVLVNGVMP is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:03:44) admin 1FOVLVNGVMP has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:03:44) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:03:45) admin retrieved objects P,571 P,540 P,448 
+(2019-02-01 10:03:45) admin 1FOVLVNGVMP is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:03:45) admin 1FOVLVNGVMP has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:03:46) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:03:49) admin asked if object P,598 (TOrdemCompra) can be deleted. Answer: Yes
+(2019-02-01 10:03:50) admin deleted object P,598 (TOrdemCompra)
+(2019-02-01 10:03:50) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:03:51) admin created object P,606 (TOrdemCompra)
+(2019-02-01 10:03:56) admin asked if object P,606 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:03:51 / Asked: 01/02/2019 10:03:51)
+(2019-02-01 10:03:56) admin updated an object stream
+(2019-02-01 10:03:56) admin retrieved object P,606 (TOrdemCompra)
+(2019-02-01 10:03:56) admin created object P,607 (TOrdemCompraItem)
+(2019-02-01 10:04:00) admin asked if object P,607 (TOrdemCompraItem) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:03:56 / Asked: 01/02/2019 10:03:56)
+(2019-02-01 10:04:00) admin updated an object stream
+(2019-02-01 10:04:00) admin retrieved object P,607 (TOrdemCompraItem)
+(2019-02-01 10:04:00) admin retrieved objects P,24 
+(2019-02-01 10:04:01) admin updated an object stream
+(2019-02-01 10:04:01) admin retrieved object P,606 (TOrdemCompra)
+(2019-02-01 10:04:01) admin updated an object stream
+(2019-02-01 10:04:01) admin updated an object stream
+(2019-02-01 10:04:01) admin retrieved object P,606 (TOrdemCompra)
+(2019-02-01 10:04:06) admin asked if object P,606 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:04:01 / Asked: 01/02/2019 10:04:01)
+(2019-02-01 10:04:17) admin updated an object stream
+(2019-02-01 10:04:23) admin retrieved object P,606 (TOrdemCompra)
+(2019-02-01 10:04:27) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 1FOVLVNGVMP
+(2019-02-01 10:04:27) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 1FOVLVNGVMP
+(2019-02-01 10:04:39) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 2JROIWOXOFI
+(2019-02-01 10:04:39) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 2JROIWOXOFI
+(2019-02-01 10:04:39) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-02-01 10:04:41) admin 2JROIWOXOFI is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:04:41) admin 2JROIWOXOFI has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:04:41) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:04:44) admin created object P,608 (TOrdemCompra)
+(2019-02-01 10:04:49) admin asked if object P,608 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:04:44 / Asked: 01/02/2019 10:04:44)
+(2019-02-01 10:04:49) admin updated an object stream
+(2019-02-01 10:04:49) admin retrieved object P,608 (TOrdemCompra)
+(2019-02-01 10:04:49) admin created object P,609 (TOrdemCompraItem)
+(2019-02-01 10:04:54) admin asked if object P,609 (TOrdemCompraItem) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:04:49 / Asked: 01/02/2019 10:04:49)
+(2019-02-01 10:04:54) admin updated an object stream
+(2019-02-01 10:04:54) admin retrieved object P,609 (TOrdemCompraItem)
+(2019-02-01 10:04:54) admin retrieved objects P,24 
+(2019-02-01 10:04:55) admin updated an object stream
+(2019-02-01 10:04:55) admin retrieved object P,608 (TOrdemCompra)
+(2019-02-01 10:04:55) admin updated an object stream
+(2019-02-01 10:04:55) admin updated an object stream
+(2019-02-01 10:04:55) admin retrieved object P,608 (TOrdemCompra)
+(2019-02-01 10:04:57) admin asked if object P,608 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:04:55 / Asked: 01/02/2019 10:04:55)
+(2019-02-01 10:04:59) admin updated an object stream
+(2019-02-01 10:04:59) admin retrieved object P,608 (TOrdemCompra)
+(2019-02-01 10:04:59) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:05:03) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 2JROIWOXOFI
+(2019-02-01 10:05:03) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 2JROIWOXOFI
+(2019-02-01 10:06:01) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 3RKIAIRCESD
+(2019-02-01 10:06:01) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 3RKIAIRCESD
+(2019-02-01 10:06:01) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-02-01 10:06:03) admin 3RKIAIRCESD is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:06:03) admin 3RKIAIRCESD has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:06:03) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:06:04) admin created object P,610 (TOrdemCompra)
+(2019-02-01 10:06:08) admin asked if object P,610 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:06:04 / Asked: 01/02/2019 10:06:04)
+(2019-02-01 10:06:08) admin updated an object stream
+(2019-02-01 10:06:08) admin retrieved object P,610 (TOrdemCompra)
+(2019-02-01 10:06:08) admin created object P,611 (TOrdemCompraItem)
+(2019-02-01 10:06:12) admin asked if object P,611 (TOrdemCompraItem) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:06:08 / Asked: 01/02/2019 10:06:08)
+(2019-02-01 10:06:12) admin updated an object stream
+(2019-02-01 10:06:12) admin retrieved object P,611 (TOrdemCompraItem)
+(2019-02-01 10:06:12) admin retrieved objects P,24 
+(2019-02-01 10:06:13) admin updated an object stream
+(2019-02-01 10:06:13) admin retrieved object P,610 (TOrdemCompra)
+(2019-02-01 10:06:13) admin updated an object stream
+(2019-02-01 10:06:13) admin updated an object stream
+(2019-02-01 10:06:13) admin retrieved object P,610 (TOrdemCompra)
+(2019-02-01 10:06:15) admin asked if object P,610 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:06:13 / Asked: 01/02/2019 10:06:13)
+(2019-02-01 10:06:18) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 3RKIAIRCESD
+(2019-02-01 10:06:18) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 3RKIAIRCESD
+(2019-02-01 10:06:37) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 4FBTYRMFJUV
+(2019-02-01 10:06:37) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 4FBTYRMFJUV
+(2019-02-01 10:06:37) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-02-01 10:06:39) admin 4FBTYRMFJUV is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:06:39) admin 4FBTYRMFJUV has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:06:39) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:06:40) admin created object P,612 (TOrdemCompra)
+(2019-02-01 10:06:46) admin asked if object P,612 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:06:40 / Asked: 01/02/2019 10:06:40)
+(2019-02-01 10:06:46) admin updated an object stream
+(2019-02-01 10:06:46) admin retrieved object P,612 (TOrdemCompra)
+(2019-02-01 10:06:46) admin created object P,613 (TOrdemCompraItem)
+(2019-02-01 10:06:51) admin asked if object P,613 (TOrdemCompraItem) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:06:46 / Asked: 01/02/2019 10:06:46)
+(2019-02-01 10:06:51) admin updated an object stream
+(2019-02-01 10:06:51) admin retrieved object P,613 (TOrdemCompraItem)
+(2019-02-01 10:06:51) admin retrieved objects P,24 
+(2019-02-01 10:06:52) admin updated an object stream
+(2019-02-01 10:06:52) admin retrieved object P,612 (TOrdemCompra)
+(2019-02-01 10:06:52) admin updated an object stream
+(2019-02-01 10:06:52) admin updated an object stream
+(2019-02-01 10:06:52) admin retrieved object P,612 (TOrdemCompra)
+(2019-02-01 10:06:54) admin asked if object P,612 (TOrdemCompra) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:06:52 / Asked: 01/02/2019 10:06:52)
+(2019-02-01 10:06:54) admin updated an object stream
+(2019-02-01 10:06:54) admin retrieved object P,612 (TOrdemCompra)
+(2019-02-01 10:06:54) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:07:13) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 4FBTYRMFJUV
+(2019-02-01 10:07:13) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 4FBTYRMFJUV
+(2019-02-01 10:15:08) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 5GVTBXWFGFB
+(2019-02-01 10:15:08) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 5GVTBXWFGFB
+(2019-02-01 10:15:08) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-02-01 10:15:10) admin 5GVTBXWFGFB is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:15:10) admin 5GVTBXWFGFB has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:15:11) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:15:11) admin retrieved objects P,184 
+(2019-02-01 10:15:14) admin 5GVTBXWFGFB is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:15:14) admin 5GVTBXWFGFB has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:15:14) admin queried persistent objects (TOrdemCompra): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:15:18) admin 5GVTBXWFGFB is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:15:18) admin 5GVTBXWFGFB has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:15:18) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:15:21) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:15:32) admin retrieved object P,575 (TLocacao)
+(2019-02-01 10:15:32) admin asked if object P,575 (TLocacao) can be deleted. Answer: Yes
+(2019-02-01 10:15:33) admin deleted object P,575 (TLocacao)
+(2019-02-01 10:15:33) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:15:34) admin created object P,614 (TLocacao)
+(2019-02-01 10:15:48) admin asked if object P,614 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:15:34 / Asked: 01/02/2019 10:15:34)
+(2019-02-01 10:15:48) admin updated an object stream
+(2019-02-01 10:15:48) admin retrieved object P,614 (TLocacao)
+(2019-02-01 10:15:48) admin created object P,615 (TLocacaoItem)
+(2019-02-01 10:15:56) admin asked if object P,615 (TLocacaoItem) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:15:48 / Asked: 01/02/2019 10:15:48)
+(2019-02-01 10:15:56) admin updated an object stream
+(2019-02-01 10:15:56) admin retrieved object P,615 (TLocacaoItem)
+(2019-02-01 10:15:58) admin created object P,616 (TLocacaoItem)
+(2019-02-01 10:16:05) admin asked if object P,616 (TLocacaoItem) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:15:58 / Asked: 01/02/2019 10:15:58)
+(2019-02-01 10:16:05) admin updated an object stream
+(2019-02-01 10:16:05) admin retrieved object P,616 (TLocacaoItem)
+(2019-02-01 10:16:09) admin asked if object P,614 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:15:48 / Asked: 01/02/2019 10:15:48)
+(2019-02-01 10:16:09) admin updated an object stream
+(2019-02-01 10:16:09) admin retrieved object P,614 (TLocacao)
+(2019-02-01 10:16:09) admin retrieved object P,586 (TSocio)
+(2019-02-01 10:16:09) admin created object P,617 (TLog)
+(2019-02-01 10:16:09) admin updated an object stream
+(2019-02-01 10:16:09) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:16:13) admin retrieved object P,614 (TLocacao)
+(2019-02-01 10:16:13) admin retrieved object P,586 (TSocio)
+(2019-02-01 10:16:14) admin updated an object stream
+(2019-02-01 10:16:14) admin retrieved object P,614 (TLocacao)
+(2019-02-01 10:16:14) admin updated an object stream
+(2019-02-01 10:16:14) admin updated an object stream
+(2019-02-01 10:16:14) admin updated an object stream
+(2019-02-01 10:16:14) admin retrieved object P,614 (TLocacao)
+(2019-02-01 10:16:18) admin asked if object P,614 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:16:14 / Asked: 01/02/2019 10:16:14)
+(2019-02-01 10:16:18) admin updated an object stream
+(2019-02-01 10:16:18) admin retrieved object P,614 (TLocacao)
+(2019-02-01 10:16:18) admin created object P,618 (TLog)
+(2019-02-01 10:16:18) admin updated an object stream
+(2019-02-01 10:16:18) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:16:24) admin retrieved object P,614 (TLocacao)
+(2019-02-01 10:16:24) admin retrieved object P,586 (TSocio)
+(2019-02-01 10:16:25) admin updated an object stream
+(2019-02-01 10:16:25) admin updated an object stream
+(2019-02-01 10:16:25) admin updated an object stream
+(2019-02-01 10:16:25) admin updated an object stream
+(2019-02-01 10:16:25) admin retrieved object P,614 (TLocacao)
+(2019-02-01 10:16:28) admin asked if object P,614 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:16:25 / Asked: 01/02/2019 10:16:25)
+(2019-02-01 10:16:28) admin updated an object stream
+(2019-02-01 10:16:28) admin retrieved object P,614 (TLocacao)
+(2019-02-01 10:16:28) admin created object P,619 (TLog)
+(2019-02-01 10:16:28) admin updated an object stream
+(2019-02-01 10:16:28) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:16:32) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:16:42) admin retrieved object P,614 (TLocacao)
+(2019-02-01 10:16:42) admin retrieved object P,586 (TSocio)
+(2019-02-01 10:16:43) admin updated an object stream
+(2019-02-01 10:16:43) admin updated an object stream
+(2019-02-01 10:16:43) admin updated an object stream
+(2019-02-01 10:16:43) admin updated an object stream
+(2019-02-01 10:16:43) admin retrieved object P,614 (TLocacao)
+(2019-02-01 10:16:47) admin asked if object P,614 (TLocacao) can be updated. Answer: Yes (Object last update timestamp: 01/02/2019 10:16:43 / Asked: 01/02/2019 10:16:43)
+(2019-02-01 10:16:47) admin updated an object stream
+(2019-02-01 10:16:47) admin retrieved object P,614 (TLocacao)
+(2019-02-01 10:16:47) admin created object P,620 (TLog)
+(2019-02-01 10:16:47) admin updated an object stream
+(2019-02-01 10:16:47) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:16:51) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:16:56) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 5GVTBXWFGFB
+(2019-02-01 10:16:56) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 5GVTBXWFGFB
+(2019-02-01 10:17:12) Server ended
+(2019-02-01 10:17:12) ============
+(2019-02-01 10:17:12) 
+(2019-02-01 10:17:12) 
+(2019-02-01 10:18:43) 
+(2019-02-01 10:18:43) 
+(2019-02-01 10:18:43) ==============
+(2019-02-01 10:18:43) Server started
+(2019-02-01 10:18:57) Login: admin (admin) from 127.0.0.1. Connection Type = normal. Connection Id = 1KSCREWUCYS
+(2019-02-01 10:18:57) Login: admin (admin) from 127.0.0.1. Connection Type = event. Connection Id = 1KSCREWUCYS
+(2019-02-01 10:18:57) admin retrieved object by name _gSysAccessControl (TSysAccessControl)
+(2019-02-01 10:19:00) admin 1KSCREWUCYS is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:19:00) admin 1KSCREWUCYS has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:19:01) admin queried persistent objects (TLocacao): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:19:01) admin retrieved objects P,586 P,184 
+(2019-02-01 10:19:02) admin 1KSCREWUCYS is invoking method TLocacao.GetArrayNotaDebito on object P,614 
+(2019-02-01 10:19:03) admin 1KSCREWUCYS has just invoked method TLocacao.GetArrayNotaDebito on object P,614 
+(2019-02-01 10:19:05) admin 1KSCREWUCYS is invoking method TLocacao.FaturarLocacao on object P,614 
+(2019-02-01 10:19:05) admin 1KSCREWUCYS has just invoked method TLocacao.FaturarLocacao on object P,614 
+(2019-02-01 10:19:05) admin 1KSCREWUCYS is invoking method TLocacao.GetArrayNotaDebito on object P,614 
+(2019-02-01 10:19:05) admin 1KSCREWUCYS has just invoked method TLocacao.GetArrayNotaDebito on object P,614 
+(2019-02-01 10:19:05) admin retrieved objects P,621 
+(2019-02-01 10:19:08) admin 1KSCREWUCYS is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:19:08) admin 1KSCREWUCYS has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:19:08) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:19:08) admin retrieved objects P,614 
+(2019-02-01 10:19:10) admin retrieved object P,621 (TNotaDebito)
+(2019-02-01 10:19:10) admin retrieved object P,614 (TLocacao)
+(2019-02-01 10:19:11) admin queried persistent objects (TNotaDebito): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:19:15) admin 1KSCREWUCYS is invoking method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:19:15) admin 1KSCREWUCYS has just invoked method TSysAccessControl.GetLoggedUserCRUDFormColumnConfig on object N,1 (_gSysAccessControl) 
+(2019-02-01 10:19:15) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:19:16) admin retrieved object P,24 (TFilme)
+(2019-02-01 10:19:16) admin retrieved object P,18 (TDiretor)
+(2019-02-01 10:19:18) admin queried persistent objects (TFilme): SubClasses: No; Proxy: Yes; LimitOffset: 0; LimitCount: 39; SendObjOffset: 0; SendObjCount: 0;
+(2019-02-01 10:19:20) Disconnection: admin from 127.0.0.1. Connection Type = normal. Connection Id = 1KSCREWUCYS
+(2019-02-01 10:19:20) Disconnection: admin from 127.0.0.1. Connection Type = event. Connection Id = 1KSCREWUCYS
+(2019-02-01 10:21:03) Server ended
+(2019-02-01 10:21:03) ============
+(2019-02-01 10:21:03) 
+(2019-02-01 10:21:03) 

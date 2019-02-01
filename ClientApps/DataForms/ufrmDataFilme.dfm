@@ -1,8 +1,8 @@
 object frmDataFilme: TfrmDataFilme
   Left = 194
   Top = 116
-  Width = 830
-  Height = 409
+  Width = 806
+  Height = 337
   BorderIcons = [biSystemMenu,biMaximize]
   Caption = 'Dados do Filme'
   Color = clBtnFace
@@ -6393,29 +6393,8 @@ object frmDataFilme: TfrmDataFilme
       Height = 13
       Caption = 'Diretor:'
     end
-    object lblQuantidadeEstoque: TLabel
-      Left = 24
-      Top = 190
-      Width = 100
-      Height = 13
-      Caption = 'Quantidade em Estoque:'
-    end
-    object lblQuantidadeReservada: TLabel
-      Left = 24
-      Top = 214
-      Width = 100
-      Height = 13
-      Caption = 'Quantidade Reservada:'
-    end
-    object lblQuantidadeLocacao: TLabel
-      Left = 24
-      Top = 238
-      Width = 100
-      Height = 13
-      Caption = 'Quantidade em Locação:'
-    end
     object txtNome: TMaskEdit
-      Left = 176
+      Left = 152
       Top = 21
       Width = 606
       Height = 21
@@ -6427,7 +6406,7 @@ object frmDataFilme: TfrmDataFilme
     OnExit = ControlExit
     end
     object memSinopse: TMemo
-      Left = 176
+      Left = 152
       Top = 45
       Width = 400
       Height = 89
@@ -6437,7 +6416,7 @@ object frmDataFilme: TfrmDataFilme
     OnExit = ControlExit
     end
     object txtAnoLancamento: TMaskEdit
-      Left = 176
+      Left = 152
       Top = 139
       Width = 100
       Height = 21
@@ -6447,7 +6426,7 @@ object frmDataFilme: TfrmDataFilme
     OnExit = ControlExit
     end
     object cboDiretor: TComboBox
-      Left = 176
+      Left = 152
       Top = 163
       Width = 300
       Height = 21
@@ -6457,36 +6436,6 @@ object frmDataFilme: TfrmDataFilme
       AutoComplete = False
       OnEnter = ControlEnter
       OnExit = ControlExit
-    end
-    object txtQuantidadeEstoque: TMaskEdit
-      Left = 176
-      Top = 187
-      Width = 100
-      Height = 21
-      Text = ''
-      Enabled = False
-    OnEnter = ControlEnter
-    OnExit = ControlExit
-    end
-    object txtQuantidadeReservada: TMaskEdit
-      Left = 176
-      Top = 211
-      Width = 100
-      Height = 21
-      Text = ''
-      Enabled = False
-    OnEnter = ControlEnter
-    OnExit = ControlExit
-    end
-    object txtQuantidadeLocacao: TMaskEdit
-      Left = 176
-      Top = 235
-      Width = 100
-      Height = 21
-      Text = ''
-      Enabled = False
-    OnEnter = ControlEnter
-    OnExit = ControlExit
     end
   end
   object pnlBottom: TPanel

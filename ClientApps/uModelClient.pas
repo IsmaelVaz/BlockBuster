@@ -105,14 +105,12 @@ end;
 
 TMovimentacaoFilme = class(TP2SBFAbsPerBizObj)
    private
-      FQuantidade: Integer;
       FFilme: TP2SBFBizObjReference;
       FQuantidadePositiva: Integer;
    protected
       procedure CreateAttributes; override;
       procedure DestroyAttributes; override;
    published
-      property Quantidade: Integer read FQuantidade write FQuantidade;
       property Filme: TP2SBFBizObjReference read FFilme write FFilme;
       property QuantidadePositiva: Integer read FQuantidadePositiva write FQuantidadePositiva;
 end;

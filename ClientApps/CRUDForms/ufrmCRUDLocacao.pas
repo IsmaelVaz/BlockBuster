@@ -24,6 +24,8 @@ type
     imglstImagens: TImageList;
     pnlTop: TPanel;
 //$$** SECTION: FILTERS_OBJECTS_DECLARATIONS
+    lblFilter1: TLabel;
+    cboFilter1: TComboBox;
 //$$** ENDSECTION
     lblFastSearchField: TLabel;
     txtFastSearch: TEdit;
@@ -117,9 +119,11 @@ type
     FNextgrdDataTopLeftChangedThread: TgrdDataTopLeftChangedThread;
 	
 //$$** SECTION: ARRAYS_FILTERS_DECLARATIONS
+    FArrayFilter1Id: TIntegerDynArray;
 //$$** ENDSECTION
 
 //$$** SECTION: FILTERS_COMBOS_HANDLERS_DECLARATIONS
+    FComboLookupFilter1Handler: TDynamicComboBoxHandler;
 //$$** ENDSECTION
 
 //$$** SECTION: PROTECTEDDECL_IMPL_USER
@@ -159,6 +163,10 @@ type
     //procedure VisibleChanging; override;
 
 //$$** SECTION: FILTERS_COMBOS_LOOKUP_METHODS_DECLARATIONS
+    procedure LoadItemsComboLookupFilter1(AText: string = '');
+    procedure SelectItemComboLookupFilter1(AOID: TOID);
+    procedure UpdateComboLookupFilter1;
+    procedure SetValueComboLookupFilter1(Sender: TObject);
 //$$** ENDSECTION
     
   public
@@ -239,6 +247,7 @@ begin
    FOrderByPropertyFieldSize:=0;   
 
 //$$** SECTION: FILTERS_COMBOS_HANDLERS_CREATE
+   FComboLookupFilter1Handler:=TDynamicComboBoxHandler.Create;
 //$$** ENDSECTION
 
    FAvailableColumnList:=TCRUDFormAvailableColumnList.Create;
@@ -342,6 +351,7 @@ begin
    FAvailableColumnList.Free;
    
 //$$** SECTION: FILTERS_COMBOS_HANDLERS_DESTROY
+   FComboLookupFilter1Handler.Free;
 //$$** ENDSECTION
    
 end;
@@ -1095,6 +1105,19 @@ begin
       AFinalCriteriaList.Add(Criteria);
    end;
 //$$** SECTION: GET_FILTER_CRITERIA
+   // Filter 1
+   if (cboFilter1.ItemIndex=-1) or (cboFilter1.Items.Count=0) then begin
+         // No criterias (show all objects when this combo is empty);
+   end else begin
+      Id:=FArrayFilter1Id[cboFilter1.ItemIndex];
+      if Id<>0 then begin
+         Criteria:=TP2SBFCriteria.Create;
+         Criteria.PropName:='Socio';
+         Criteria.Operator:=ocoEquals;
+         Criteria.PropValue.AsObjectOID:=POID(Id);
+         AFinalCriteriaList.Add(Criteria);
+      end;
+   end;
 //$$** ENDSECTION
    CustomSetupFinalCriteriaList(AFinalCriteriaList);
 end;
@@ -1741,6 +1764,10 @@ end;
 procedure TfrmCRUDLocacao.SetupFilters;
 begin
 //$$** SECTION: SETUP_FILTERS
+   FComboLookupFilter1Handler.AssignToComboBox(cboFilter1);
+   FComboLookupFilter1Handler.OnLoadItems:=LoadItemsComboLookupFilter1;
+   FComboLookupFilter1Handler.OnSelectItem:=SetValueComboLookupFilter1;
+   UpdateComboLookupFilter1;
 //$$** ENDSECTION
 end;
 
@@ -1767,6 +1794,8 @@ var
 begin
    SubTitle:='';
 //$$** SECTION: GET_LIST_SUBTITLE
+   if SubTitle<>'' then SubTitle:=SubTitle+#13#10;
+   SubTitle:=SubTitle+'Sócio: '+cboFilter1.Text;
 //$$** ENDSECTION
    SetLength(ArrayColNameTotalCols,0);
 //$$** SECTION: SET_ARRAY_TOTAL_COLS
@@ -1849,6 +1878,93 @@ end;
 //$$** ENDSECTION
 
 //$$** SECTION: FILTERS_COMBOS_LOOKUP_METHODS
+
+//************************************************************************
+//* TfrmCRUDLocacao.LoadItemsComboLookupFilter1
+//************************************************************************
+procedure TfrmCRUDLocacao.LoadItemsComboLookupFilter1(AText: string = '');
+var
+   DescriptionList: TStringList;
+   Criteria: TP2SBFCriteria;
+   CriteriaList: TP2SBFCriteriaList;
+//$$** SECTION: LOADITEMSCOMBOLOOKUPFILTER_1_VAR
+//$$** ENDSECTION
+begin
+   DescriptionList:=TStringList.Create;
+   Criteria:=TP2SBFCriteria.Create;
+   CriteriaList:=TP2SBFCriteriaList.Create;
+   try
+      ClearComboItemsWithoutLosingText(cboFilter1);
+      SetLength(FArrayFilter1Id,0);
+      if AText<>'' then begin
+         Criteria.PropName:='NomeExibicao';
+         Criteria.Operator:=ocoLikes;
+         Criteria.PropValue.AsString:=AText+'%';
+         CriteriaList.Add(Criteria);
+//$$** SECTION: LOADITEMSCOMBOLOOKUPFILTER_1_BEFOREQUERY
+//$$** ENDSECTION
+         gP2SBFObjRepos.QueryDescriptionsOfPersistentObjects(TSocio,CriteriaList,FArrayFilter1Id,DescriptionList,'NomeExibicao',True);
+         cboFilter1.Items.AddStrings(DescriptionList);
+//$$** SECTION: LOADITEMSCOMBOLOOKUPFILTER_1_FINALIZE
+//$$** ENDSECTION
+      end;
+   finally
+      CriteriaList.Free;
+      Criteria.Free;
+      DescriptionList.Free;
+   end;
+end;
+
+//************************************************************************
+//* TfrmCRUDLocacao.SelectItemComboLookupFilter1
+//************************************************************************
+procedure TfrmCRUDLocacao.SelectItemComboLookupFilter1(AOID: TOID);
+var
+   i: Integer;
+   ObjRef: TSocio;
+begin
+   cboFilter1.ItemIndex:=-1;
+   for i:=0 to High(FArrayFilter1Id) do begin
+      if FArrayFilter1Id[i] = AOID.ID then begin
+         cboFilter1.ItemIndex:=i;
+         Break;
+      end;
+   end;
+   if (not SameOID(AOID,NullOID)) and (cboFilter1.ItemIndex=-1) then begin
+      ObjRef:=TSocio.Retrieve(AOID,True) as TSocio;
+      cboFilter1.Items.Add(ObjRef.NomeExibicao);
+      cboFilter1.ItemIndex:=cboFilter1.Items.Count-1;
+      SetLength(FArrayFilter1Id,High(FArrayFilter1Id)+2);
+      FArrayFilter1Id[High(FArrayFilter1Id)]:=ObjRef.OID.ID;
+   end;
+end;
+
+//************************************************************************
+//* TfrmCRUDLocacao.UpdateComboLookupFilter1
+//************************************************************************
+procedure TfrmCRUDLocacao.UpdateComboLookupFilter1;
+begin
+   if Trim(cboFilter1.Text)<>'' then begin
+      Screen.Cursor:=crHourglass;
+      LoadItemsComboLookupFilter1(cboFilter1.Text);
+      Screen.Cursor:=crDefault;
+   end else begin
+      cboFilter1.Items.Clear;
+      SetLength(FArrayFilter1Id,0);
+   end;
+end;
+
+//************************************************************************
+//* TfrmCRUDLocacao.SetValueComboLookupFilter1
+//************************************************************************
+procedure TfrmCRUDLocacao.SetValueComboLookupFilter1(Sender: TObject);
+begin
+   if grdData.Visible then begin
+      RefreshVisibleRangeOnBackground;
+      //UpdateInternalColumnWidths;
+      //ResizeGrid;
+   end;
+end;
 //$$** ENDSECTION
 
 //************************************************************************

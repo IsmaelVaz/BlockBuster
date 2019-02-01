@@ -43,17 +43,11 @@ type
     lblSinopse: TLabel;
     lblAnoLancamento: TLabel;
     lblDiretor: TLabel;
-    lblQuantidadeEstoque: TLabel;
-    lblQuantidadeReservada: TLabel;
-    lblQuantidadeLocacao: TLabel;
 //$$** SECTION: CONTROLS_DECLARATIONS
     txtNome: TMaskEdit;
     memSinopse: TMemo;
     txtAnoLancamento: TMaskEdit;
     cboDiretor: TComboBox;
-    txtQuantidadeEstoque: TMaskEdit;
-    txtQuantidadeReservada: TMaskEdit;
-    txtQuantidadeLocacao: TMaskEdit;
 //$$** ENDSECTION
     imglstImagens: TImageList;
 //$$** SECTION: GRIDS_DECLARATIONS
@@ -353,9 +347,6 @@ begin
    end else begin
       AObject.Diretor.OIDRef:=POID(FArrayLookupIdDiretor[cboDiretor.ItemIndex]);
    end;
-   AObject.QuantidadeEstoque:=StrToInt(txtQuantidadeEstoque.Text);
-   AObject.QuantidadeReservada:=StrToInt(txtQuantidadeReservada.Text);
-   AObject.QuantidadeLocacao:=StrToInt(txtQuantidadeLocacao.Text);
 //$$** SECTION: UPDATEOBJECT_USER
 //$$** ENDSECTION
 end;
@@ -374,9 +365,6 @@ begin
    memSinopse.Lines.Text:=FObject.Sinopse;
    txtAnoLancamento.Text:=IntToStr(FObject.AnoLancamento);
    SelectItemComboLookupDiretor(FObject.Diretor.OIDRef);
-   txtQuantidadeEstoque.Text:=IntToStr(FObject.QuantidadeEstoque);
-   txtQuantidadeReservada.Text:=IntToStr(FObject.QuantidadeReservada);
-   txtQuantidadeLocacao.Text:=IntToStr(FObject.QuantidadeLocacao);
 //$$** SECTION: UPDATESCREEN_USER
 //$$** ENDSECTION
 end;
@@ -418,51 +406,6 @@ begin
    if (cboDiretor.ItemIndex=-1) or (cboDiretor.Items.Count=0) then begin
       Application.MessageBox('O campo "Diretor" deve ser preenchido.','Aviso',MB_ICONINFORMATION);
       if cboDiretor.CanFocus then cboDiretor.SetFocus;
-      Result:=False;
-      Exit;
-   end;
-   if Trim(txtQuantidadeEstoque.Text)='' then begin
-      Application.MessageBox('O campo "Quantidade em Estoque" deve ser preenchido.','Aviso',MB_ICONINFORMATION);
-      if txtQuantidadeEstoque.CanFocus then txtQuantidadeEstoque.SetFocus;
-      Result:=False;
-      Exit;
-   end;
-   try
-      StrToInt(Trim(txtQuantidadeEstoque.Text));
-   except
-      Application.MessageBox('O valor do campo "Quantidade em Estoque" é inválido.','Aviso',MB_ICONINFORMATION);
-      if txtQuantidadeEstoque.CanFocus then txtQuantidadeEstoque.SetFocus;
-      if txtQuantidadeEstoque.CanFocus then txtQuantidadeEstoque.SelectAll;
-      Result:=False;
-      Exit;
-   end;
-   if Trim(txtQuantidadeReservada.Text)='' then begin
-      Application.MessageBox('O campo "Quantidade Reservada" deve ser preenchido.','Aviso',MB_ICONINFORMATION);
-      if txtQuantidadeReservada.CanFocus then txtQuantidadeReservada.SetFocus;
-      Result:=False;
-      Exit;
-   end;
-   try
-      StrToInt(Trim(txtQuantidadeReservada.Text));
-   except
-      Application.MessageBox('O valor do campo "Quantidade Reservada" é inválido.','Aviso',MB_ICONINFORMATION);
-      if txtQuantidadeReservada.CanFocus then txtQuantidadeReservada.SetFocus;
-      if txtQuantidadeReservada.CanFocus then txtQuantidadeReservada.SelectAll;
-      Result:=False;
-      Exit;
-   end;
-   if Trim(txtQuantidadeLocacao.Text)='' then begin
-      Application.MessageBox('O campo "Quantidade em Locação" deve ser preenchido.','Aviso',MB_ICONINFORMATION);
-      if txtQuantidadeLocacao.CanFocus then txtQuantidadeLocacao.SetFocus;
-      Result:=False;
-      Exit;
-   end;
-   try
-      StrToInt(Trim(txtQuantidadeLocacao.Text));
-   except
-      Application.MessageBox('O valor do campo "Quantidade em Locação" é inválido.','Aviso',MB_ICONINFORMATION);
-      if txtQuantidadeLocacao.CanFocus then txtQuantidadeLocacao.SetFocus;
-      if txtQuantidadeLocacao.CanFocus then txtQuantidadeLocacao.SelectAll;
       Result:=False;
       Exit;
    end;

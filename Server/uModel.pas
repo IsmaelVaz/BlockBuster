@@ -174,7 +174,6 @@ end;
 
 TMovimentacaoFilme = class(TP2SBFAbsPerBizObj,ITMovimentacaoFilme)
    private
-      FQuantidade: Integer;
       FFilme: TP2SBFBizObjReference;
       FQuantidadePositiva: Integer;
    protected
@@ -191,7 +190,6 @@ TMovimentacaoFilme = class(TP2SBFAbsPerBizObj,ITMovimentacaoFilme)
       constructor Create(AConnectionData: TP2SBFConnectionData); override;
    published
       property _DTTMovFilme_TFilme: TP2SBFReferenceTrigger read _FDTTMovFilme_TFilme;
-      property Quantidade: Integer read FQuantidade write FQuantidade;
       property Filme: TP2SBFBizObjReference read FFilme write FFilme;
       property QuantidadePositiva: Integer read FQuantidadePositiva write FQuantidadePositiva;
 end;
