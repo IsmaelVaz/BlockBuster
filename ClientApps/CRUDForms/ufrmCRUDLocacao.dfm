@@ -1,7 +1,7 @@
 object frmCRUDLocacao: TfrmCRUDLocacao
   Left = 220
   Top = 142
-  Caption = 'Cadastro de Locação'
+  Caption = 'Cadastro de Loca'#231#227'o'
   ClientHeight = 420
   ClientWidth = 580
   Color = clBtnFace
@@ -10,7 +10,6 @@ object frmCRUDLocacao: TfrmCRUDLocacao
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  FormStyle = fsNormal
   Icon.Data = {
     0000010006000000000001002000282004006600000010100000010020006804
     00008E2004003030000001002000A8250000F62404002020000001002000A810
@@ -11579,11 +11578,10 @@ object frmCRUDLocacao: TfrmCRUDLocacao
     FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
   OldCreateOrder = True
   Position = poDefault
-  Visible = False
   WindowState = wsMaximized
+  OnActivate = FormActivate
   OnClose = FormClose
   OnCreate = FormCreate
-  OnActivate = FormActivate
   OnDestroy = FormDestroy
   OnResize = FormResize
   PixelsPerInch = 96
@@ -11591,7 +11589,7 @@ object frmCRUDLocacao: TfrmCRUDLocacao
   object pnlTop: TPanel
     Left = 0
     Top = 47
-    Width = 574
+    Width = 580
     Height = 106
     Align = alTop
     BevelOuter = bvNone
@@ -11599,26 +11597,24 @@ object frmCRUDLocacao: TfrmCRUDLocacao
     object lblFilter1: TLabel
       Left = 16
       Top = 11
-      Width = 300
+      Width = 29
       Height = 13
-      Caption = 'Sócio:'
-      AutoSize = True
+      Caption = 'S'#243'cio:'
+    end
+    object lblFastSearchField: TLabel
+      Left = 16
+      Top = 55
+      Width = 127
+      Height = 13
+      Caption = 'Busca R'#225'pida por N'#250'mero:'
     end
     object cboFilter1: TComboBox
       Left = 15
       Top = 27
       Width = 300
       Height = 21
-      ItemHeight = 13
       AutoComplete = False
-      Style = csDropDown
-    end
-    object lblFastSearchField: TLabel
-      Left = 16
-      Top = 55
-      Width = 86
-      Height = 13
-      Caption = 'Busca Rápida por Número:'
+      TabOrder = 1
     end
     object txtFastSearch: TEdit
       Left = 15
@@ -11633,12 +11629,12 @@ object frmCRUDLocacao: TfrmCRUDLocacao
   object pnlTitle: TPanel
     Left = 0
     Top = 0
-    Width = 574
+    Width = 580
     Height = 47
     Align = alTop
     Color = clWhite
-    TabOrder = 2
     ParentBackground = False
+    TabOrder = 2
     object imgFormPicture: TImage
       Left = 8
       Top = 8
@@ -23215,9 +23211,9 @@ object frmCRUDLocacao: TfrmCRUDLocacao
     object lblTitle: TLabel
       Left = 48
       Top = 16
-      Width = 57
+      Width = 117
       Height = 13
-      Caption = 'Cadastro de Locação'
+      Caption = 'Cadastro de Loca'#231#227'o'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
       Font.Height = -11
@@ -24256,13 +24252,13 @@ object frmCRUDLocacao: TfrmCRUDLocacao
   end
   object pnlNotAllowed: TPanel
     Left = 0
-    Top = 142
-    Width = 574
-    Height = 248
+    Top = 186
+    Width = 580
+    Height = 234
     Align = alClient
     BevelOuter = bvNone
     BorderStyle = bsSingle
-    Caption = 'Visualização não permitida.'
+    Caption = 'Visualiza'#231#227'o n'#227'o permitida.'
     Color = clWindow
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -24275,9 +24271,9 @@ object frmCRUDLocacao: TfrmCRUDLocacao
   end
   object grdData: TStringGrid
     Left = 0
-    Top = 142
-    Width = 574
-    Height = 248
+    Top = 186
+    Width = 580
+    Height = 234
     Align = alClient
     ColCount = 4
     DefaultRowHeight = 19
@@ -24286,8 +24282,8 @@ object frmCRUDLocacao: TfrmCRUDLocacao
     Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goColSizing, goRowSelect, goThumbTracking]
     TabOrder = 1
     OnDblClick = grdDataDblClick
-	OnMouseMove = grdDataMouseMove
-	OnMouseUp = grdDataMouseUp
+    OnMouseMove = grdDataMouseMove
+    OnMouseUp = grdDataMouseUp
     OnTopLeftChanged = grdDataTopLeftChangedOnBackground
     ColWidths = (
       64
@@ -24297,12 +24293,11 @@ object frmCRUDLocacao: TfrmCRUDLocacao
   end
   object tlbToolBar: TToolBar
     Left = 0
-    Top = 109
-    Width = 574
+    Top = 153
+    Width = 580
     Height = 33
     BorderWidth = 2
     Caption = 'tlbToolBar'
-    Flat = True
     Images = imglstImagens
     Indent = 3
     TabOrder = 3
@@ -24367,7 +24362,7 @@ object frmCRUDLocacao: TfrmCRUDLocacao
       OnClick = cmdListClick
     end
     object cmdExportToExcel: TToolButton
-      Left = 126
+      Left = 141
       Top = 0
       Hint = 'Exportar para Excel'
       Caption = 'cmdExportToExcel'
@@ -24377,7 +24372,7 @@ object frmCRUDLocacao: TfrmCRUDLocacao
       OnClick = cmdExportToExcelClick
     end
     object cmdSeparator2: TToolButton
-      Left = 149
+      Left = 164
       Top = 0
       Width = 8
       Caption = 'cmdSeparator2'
@@ -24385,7 +24380,7 @@ object frmCRUDLocacao: TfrmCRUDLocacao
       Style = tbsSeparator
     end
     object cmdSearch: TToolButton
-      Left = 157
+      Left = 172
       Top = 0
       Hint = 'Pesquisa Avan'#231'ada'
       Caption = 'cmdSearch'
@@ -24395,9 +24390,9 @@ object frmCRUDLocacao: TfrmCRUDLocacao
       OnClick = cmdSearchClick
     end
     object cmdCancelSearch: TToolButton
-      Left = 180
+      Left = 195
       Top = 0
-      Hint = 'Cancela Pesquisa Avançada'
+      Hint = 'Cancela Pesquisa Avan'#231'ada'
       Caption = 'cmdCancelSearch'
       ImageIndex = 5
       ParentShowHint = False
@@ -24405,7 +24400,7 @@ object frmCRUDLocacao: TfrmCRUDLocacao
       OnClick = cmdCancelSearchClick
     end
     object cmdSeparator3: TToolButton
-      Left = 203
+      Left = 218
       Top = 0
       Width = 8
       Caption = 'cmdSeparator3'
@@ -24413,7 +24408,7 @@ object frmCRUDLocacao: TfrmCRUDLocacao
       Style = tbsSeparator
     end
     object cmdSelectColumns: TToolButton
-      Left = 211
+      Left = 226
       Top = 0
       Hint = 'Seleciona colunas em exibi'#231#227'o'
       Caption = 'cmdSelectColumns'
@@ -24423,7 +24418,7 @@ object frmCRUDLocacao: TfrmCRUDLocacao
       OnClick = cmdSelectColumnsClick
     end
     object cmdCustomButtons: TToolButton
-      Left = 211
+      Left = 249
       Top = 0
       Hint = 'Outros'
       Caption = 'cmdCustomButtons'
@@ -24437,7 +24432,7 @@ object frmCRUDLocacao: TfrmCRUDLocacao
     object lblPesquisaAvancadaAtiva: TLabel
       Left = 287
       Top = 0
-      Width = 133
+      Width = 139
       Height = 22
       Caption = '    Pesquisa Avan'#231'ada Ativa  '
       Layout = tlCenter
@@ -24473,7 +24468,7 @@ object frmCRUDLocacao: TfrmCRUDLocacao
     Left = 408
     Top = 56
     Bitmap = {
-      494C01010A003000500010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C01010A003000540010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000003000000001002000000000000030
       000000000000000000000000000000000000000000006A6A6A00545454006464
       6400757575008585850094949400A4A4A400AEAEAE00A4A4A400949494008585
@@ -24880,8 +24875,12 @@ object frmCRUDLocacao: TfrmCRUDLocacao
     Left = 592
     Top = 138
     object mnuCustomButton1: TMenuItem
-      Caption = 'Faturar Locação Selecionada'
+      Caption = 'Faturar Loca'#231#227'o Selecionada'
       OnClick = mnuCustomButton1Click
+    end
+    object mnuCustomButton2: TMenuItem
+      Caption = 'Listar Faturamento da Loc. Sel.'
+      OnClick = mnuCustomButton2Click
     end
   end
   object popList: TPopupMenu

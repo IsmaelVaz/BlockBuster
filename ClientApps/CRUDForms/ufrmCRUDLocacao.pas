@@ -57,6 +57,7 @@ type
     pnlNotAllowed: TPanel;
 //$$** SECTION: CONTROLS_DECLARATIONS
     mnuCustomButton1: TMenuItem;
+    mnuCustomButton2: TMenuItem;
 //$$** ENDSECTION
     procedure FormCreate(Sender: TObject);
     procedure FormActivate(Sender: TObject);
@@ -94,6 +95,7 @@ type
   
 //$$** SECTION: CUSTOMBUTTONS_METHODS_DECLARATIONS
     procedure mnuCustomButton1Click(Sender: TObject);
+    procedure mnuCustomButton2Click(Sender: TObject);
 //$$** ENDSECTION
   private
     { Private declarations }
@@ -765,6 +767,70 @@ begin
                end else begin
                    Application.MessageBox(PChar('Não há valor pendente para faturar'+#13#13+FraseNDGeradas),'Aviso',MB_ICONWARNING+MB_OK);
                end;
+            end else begin
+               Application.MessageBox(PChar('Não é possível faturar'+#13+'A Locação '+IntToStr(ObjetoParaFaturar.Numero)+' ainda está em fase de Preparação!'),'Aviso',MB_ICONWARNING+MB_OK);
+            end;
+         end else begin
+            Application.MessageBox(PChar('Locação não encontrada!'+#13+'Atualize a tabela e tente novamente.'),'Aviso',MB_ICONWARNING+MB_OK);
+         end;
+      finally
+         ObjetoParaFaturar.Free;
+         Screen.Cursor:=crDefault;
+      end;
+   end;
+end;
+//$$** ENDSECTION
+
+//************************************************************************
+//* TfrmCRUDLocacao.mnuCustomButton2Click
+//************************************************************************
+procedure TfrmCRUDLocacao.mnuCustomButton2Click(Sender: TObject);
+//$$** SECTION: CUSTOMBUTTONCLICK_FULLIMPL_2
+   var
+   ObjetoParaFaturar: TLocacao;
+   NotaDebitoAux: TNotaDebito;
+   SomaValorND, ValorFinalLocacao, ValorParaFaturar: Double;
+   i, CountAux: Integer;
+   ArrayNotaDebito: TP2SBFAbsBizObjDynArray;
+   FraseNDGeradas: String;
+begin
+   if Length(FArrayId)>=1 then begin
+      Screen.Cursor:=crHourglass;
+      try
+         ObjetoParaFaturar:=TLocacao.Retrieve(POID(FArrayId[grdData.Row-1]),False) as TLocacao;
+         ValorFinalLocacao:= 0;
+         ValorParaFaturar:= 0;
+         SomaValorND:= 0;
+         CountAux:=0;
+         FraseNDGeradas:= '';
+
+         if ObjetoParaFaturar <> nil then begin
+            if ObjetoParafaturar.StatusLocacao <> 'P' then begin
+               ObjetoParaFaturar.GetArrayNotaDebito(ArrayNotaDebito, '');
+
+               ValorFinalLocacao:= ObjetoParaFaturar.ValorFinal;
+
+               for i:=0 to High(ArrayNotaDebito) do begin
+                  SomaValorND:= SomaValorND + TNotaDebito(ArrayNotaDebito[i]).ValorTotal;
+                  FraseNDGeradas:= FraseNDGeradas+#13+'Nota de Débito: '+IntToStr(TNotaDebito(ArrayNotaDebito[i]).Numero)
+                     +' (R$ '+FormatFloat('0.00', TNotaDebito(ArrayNotaDebito[i]).ValorTotal)+')';
+                  CountAux:= 1;
+               end;
+
+               if CountAux = 0 then begin
+                  FraseNDGeradas:= 'Nenhuma Nota de Débito gerada.'
+               end;
+
+               ValorParaFaturar:= ValorFinalLocacao - SomaValorND;
+
+               FraseNDGeradas:= FraseNDGeradas+#13#13+'Valor da Locação: R$ '
+                  + FormatFloat('0.00',ValorFinalLocacao) + #13
+                  + 'Valor Total Faturado: R$ '
+                  + FormatFloat('0.00',SomaValorND);
+
+
+               Application.MessageBox(PChar('Resumo do Faturamento'+#13#13+FraseNDGeradas),'Informação',MB_ICONINFORMATION+MB_OK);
+
             end else begin
                Application.MessageBox(PChar('Não é possível faturar'+#13+'A Locação '+IntToStr(ObjetoParaFaturar.Numero)+' ainda está em fase de Preparação!'),'Aviso',MB_ICONWARNING+MB_OK);
             end;

@@ -335,31 +335,35 @@ var
    QuantidadeEntrada: Integer;
 begin
    if (ValidateScreen) then begin
-      UpdateObject(FObject);
+      if  FObject.Itens.Count > 0 then begin
+         UpdateObject(FObject);
 
-      FObject.Save(False,False);
-      FObject.Refresh;
+         FObject.Save(False,False);
+         FObject.Refresh;
 
-      QuantidadeEntrada:= 0;
-
-      for i:= 0 to FObject.Itens.Count -1 do begin
-         Item:= TOrdemCompraItem(FObject.Itens.Items[i]);
-         QuantidadeEntrada:= Item.QuantidadePositiva;
-
-         Filme:= TFilme.Retrieve(Item.Filme.OIDRef) as TFilme;
-
-         Filme.QuantidadeEstoque:= Filme.QuantidadeEstoque+QuantidadeEntrada;
-         Filme.Save(False, False);
          QuantidadeEntrada:= 0;
+
+         for i:= 0 to FObject.Itens.Count -1 do begin
+            Item:= TOrdemCompraItem(FObject.Itens.Items[i]);
+            QuantidadeEntrada:= Item.QuantidadePositiva;
+
+            Filme:= TFilme.Retrieve(Item.Filme.OIDRef) as TFilme;
+
+            Filme.QuantidadeEstoque:= Filme.QuantidadeEstoque+QuantidadeEntrada;
+            Filme.Save(False, False);
+            QuantidadeEntrada:= 0;
+         end;
+
+         FObject.StatusOC:= 'F';
+         FObject.Save(False, False);
+         FObject.Refresh;
+
+         Application.MessageBox('Ordem de Compra Finalizada.'+#13+'Quantidade em Estoque Atualizada.','Aviso',MB_ICONINFORMATION);
+
+         UpdateScreen(False);
+      end else begin
+         Application.MessageBox('É necessário ter ao menos 1 item para registrar a entrada','Aviso',MB_ICONWARNING);
       end;
-
-      FObject.StatusOC:= 'F';
-      FObject.Save(False, False);
-      FObject.Refresh;
-
-      Application.MessageBox('Ordem de Compra Finalizada.'+#13+'Quantidade em Estoque Atualizada.','Aviso',MB_ICONINFORMATION);
-
-      UpdateScreen(False);
    end;
 
 end;
